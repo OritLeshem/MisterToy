@@ -1,0 +1,24 @@
+.app-footer {
+  background-color: var(--clr1);
+  color: var(--clr2);
+  padding: 2em;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+
+  h5 {
+    font-family: PTSansCaption-Regular;
+    text-align: center;
+
+    ;
+  }
+
+
+
+}
+
+@media(max-width: 720px) {
+  .app-footer {
+    color: var(--clr2bg);
+  }
+}

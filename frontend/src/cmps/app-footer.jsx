@@ -9,9 +9,9 @@ export function AppFooter() {
 
 
     return (
-        <footer>
+        <footer className="app-footer main-layout full">
             <h5>
-                hello from footer
+                Mistertoy made by Orit Leshem
             </h5>
 
         </footer>

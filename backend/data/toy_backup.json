@@ -3,7 +3,7 @@
     "_id": "118061",
     "name": "non",
     "price": 33,
-    "type": "Adult",
+    "labels": [["On wheels", "Box game", "Baby"]],
     "createdAt": "1983-05-30T21:48:04.179Z",
     "inStock": false
   },
@@ -11,7 +11,7 @@
     "_id": "118062",
     "name": "etiam orci",
     "price": 79,
-    "type": "Educational",
+    "labels": [["On wheels", "Box game", "Baby"]],
     "createdAt": "1997-04-23T11:35:59.842Z",
     "inStock": true
   },
@@ -19,7 +19,7 @@
     "_id": "118063",
     "name": "lorem aenean",
     "price": 38,
-    "type": "Funny",
+    "labels": [["On wheels", "Box game", "Baby"]],
     "createdAt": "1977-03-07T01:09:04.340Z",
     "inStock": false
   },

@@ -17,14 +17,21 @@ export const toyService = {
   getDefaultSort
 }
 
-function getEmptyToy(name = '', price = '', labels = [], createdAt = Date.now(), inStock = true) {
-  return { name, price, labels, createdAt, inStock }
+function getEmptyToy(
+  name = '',
+  price = '',
+  labels = ["On wheels", "Doll", "Art"],
+  img = 'https://cdn.pixabay.com/photo/2013/07/13/13/53/rocking-horse-161736_960_720.png',
+  createdAt = Date.now(),
+  inStock = true) {
+  return { name, price, labels, img, createdAt, inStock }
 }
 
 function getDefaultFilter() {
   return { name: '', price: '', inStock: '' }
 }
-function query(filterBy, sortBy) {
+
+function query(filterBy = getDefaultFilter(), sortBy = getDefaultSort()) {
 
   return httpService.get('toy', { params: { filterBy, sortBy } })
 }

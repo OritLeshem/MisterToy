@@ -69,19 +69,20 @@ export function ToyIndex() {
 
   // }
 
-  return <section>
+  return <section className="main-layout ">
     {/* <Example /> */}
-
-    <Link to={`/toy/edit`}>Add Toy</Link>
-    <h3>Toys App</h3>
-    <main>
-      <ToyList toys={toys} onRemoveToy={onRemoveToy} />
-      <ToySort onSetSort={onSetSort} />
+    <div className="index-filter-sort">
+      <Link to={`/toy/edit`}><img className="btn-icon" src={require(`../assets/img/add2.png`)} alt="" /></Link>
       <ToyFilter onSetFilter={onSetFilter} />
-      {/* {isLoading && <p>Loading...</p>} */}
+      <ToySort onSetSort={onSetSort} />
+    </div>
+    <ToyList toys={toys} onRemoveToy={onRemoveToy} />
 
-      <hr />
-    </main>
+
+    {/* {isLoading && <p>Loading...</p>} */}
+
+
+
   </section>
 
 

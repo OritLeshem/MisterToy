@@ -28,17 +28,16 @@ export function ToySort({ onSetSort }) {
   }
 
 
-  return <div>
-    <section className="toy-sort">
-      <select name="sort-by" onChange={handleChange}>
-        <option value="">Sort by</option>
-        <option value="name">name</option>
-        <option value="createdAt">date</option>
-        <option value="price">price</option>
-      </select>
-    </section>
-    {/* <button onClick={handleDirectionChange}>Change direction {sortBy.asc ? '^' : 'v'}</button> */}
-    <label htmlFor="inStock">asc:</label>
-    <input name="asc" type="checkbox" onChange={handleChange} />
+  return <div className="toy-sort">
+    <select name="sort-by" onChange={handleChange} className="toy-sort-option">
+      <option value="">Sort by</option>
+      <option value="name">name</option>
+      <option value="createdAt">date</option>
+      <option value="price">price</option>
+    </select>
+
+    <label htmlFor="inStock">asc:
+      <input name="asc" type="checkbox" onChange={handleChange} />
+    </label>
   </div>
 }

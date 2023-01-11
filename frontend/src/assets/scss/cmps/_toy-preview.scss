@@ -1,0 +1,50 @@
+.toy-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    // text-align: center;
+    width: 200px;
+    border: 1px solid var(--clr1);
+    padding: 0.2rem;
+    margin: 1rem;
+    border-radius: 10px;
+
+
+    h4 {
+        text-transform: capitalize;
+        color: rgb(113, 113, 113);
+        font-family: PTSansCaption-Regular;
+        font-size: 1.2rem;
+    }
+
+    p {
+        color: var(--clr1);
+    }
+
+    img {
+        margin-top: 15px;
+        max-width: 100px;
+    }
+
+    .btn-icon-container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-top: 1px solid rgb(243, 192, 5);
+        display: flex;
+        justify-content: space-around;
+        // background-color: rgb(243, 192, 5);
+    }
+
+    .btn {
+        border: none;
+        background-color: transparent;
+    }
+
+    .btn-icon {
+        width: 30px;
+
+    }
+
+}

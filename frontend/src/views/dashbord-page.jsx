@@ -45,14 +45,16 @@ export function DashboardPage() {
   }
 
   return <section className="dashboard-page">
-    <h1>Dashboard Page</h1>
-    <div className="prices-per-toy-label">
-      <span>Prices per toy label</span>
-      <ToyChart dataChart={pricePerLabels()} labels={labels} />
-    </div>
-    <div className="inventory-by-type">
-      <span>Inventory by type</span>
-      <ToyChart dataChart={inventoryByType()} labels={labels} />
+    <h2>Toy Dashboard</h2>
+    <div className="chart-container">
+      <div className="chart">
+        <ToyChart dataChart={pricePerLabels()} labels={labels} />
+        <span>Prices per toy label</span>
+      </div>
+      <div className="chart">
+        <ToyChart dataChart={inventoryByType()} labels={labels} />
+        <span>Inventory by type</span>
+      </div>
     </div>
   </section>
 }

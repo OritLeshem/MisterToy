@@ -1,0 +1,45 @@
+// body{
+//   background-color: rgb(175, 199, 19);
+// }
+
+// /* Components */
+@import 'cmps/_app-header.scss';
+@import 'cmps/_app-footer.scss';
+
+@import 'cmps/_toy-list.scss';
+@import 'cmps/_toy-preview.scss';
+@import 'cmps/_toy-filter.scss';
+@import 'cmps/_toy-sort.scss';
+@import 'views/_toy-index.scss';
+@import 'views/_home-page.scss';
+
+
+
+
+
+
+
+
+/* Setup */
+@import 'setup/vars.scss';
+@import 'setup/typography.scss';
+@import 'setup/fonts.scss';
+@import 'setup/layout.scss';
+
+/* Base */
+@import 'base/base.scss';
+// @import 'base/helpers.css';
+// @import 'base/layout.css';
+// @import 'base/forms.css';
+
+// /* Components */
+// @import 'cmps/app-header.css';
+// @import 'cmps/toggle-btn.css';
+// @import 'cmps/user-msg.css';
+
+// @import 'cmps/car-filter.css';
+// @import 'cmps/car-list.css';
+// @import 'cmps/car-preview.css';
+
+// @import 'cmps/shopping-cart.css';
+// /* @import 'cmps/dashbord-page.css'; */

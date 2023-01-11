@@ -11,20 +11,21 @@ import { store } from './store/store';
 import { ToyEdit } from './views/toy-edit';
 import { ToyDetails } from './views/toy-details';
 import { DashboardPage } from './views/dashbord-page';
-import './assets/style/main.css'
+// import './assets/css/main.css'
+import './assets/scss/main.scss'
 
 function App() {
   return (
     <Provider store={store}>
       <Router>
-        <section className="main-layout app">
+        <section className="app main-layout">
           <AppHeader />
           <main>
             <Routes>
               <Route element={<HomePage />} path="/" />
               <Route element={<AboutUs />} path="/about" />
               <Route element={<ToyIndex />} path="/toy" />
-              <Route element={<DashboardPage />} path="/dashbord" />
+              <Route element={<DashboardPage />} path="/dashboard" />
               <Route element={<ToyEdit />} path="/toy/edit" />
               <Route element={<ToyEdit />} path="/toy/edit/:toyId" />
               <Route element={<ToyDetails />} path="/toy/:toyId" />
@@ -32,7 +33,7 @@ function App() {
 
             </Routes>
           </main>
-          <AppFooter />
+          {/* <AppFooter /> */}
 
         </section>
       </Router>

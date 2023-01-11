@@ -14,12 +14,15 @@ export function AppHeader() {
     // const [user, setUser] = useState(userService.getLoggedinUser())
 
     return (
-        <header className="app-header">
-            <nav>
-                <NavLink to="/">Home</NavLink> |
-                <NavLink to="/toy">Toys</NavLink> |
-                <NavLink to="/about">About</NavLink> |
-                <NavLink to="/dashbord">Dashbord</NavLink> |
+        <header className="app-header main-layout full">
+            <nav className='app-header-nav'>
+
+                <NavLink to="/"><img className="logo" src={require(`../assets/img/bee.png`)} alt="" /></NavLink>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/toy">Toys</NavLink>
+                <NavLink to="/about">About</NavLink>
+                <NavLink to="/dashboard">Dashbord</NavLink>
+
 
 
             </nav>

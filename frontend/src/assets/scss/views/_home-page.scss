@@ -1,0 +1,17 @@
+.homepage {
+  display: flex;
+
+
+  h1 {
+    font-size: 13rem;
+    margin-top: 200px;
+  }
+
+  .homepage-img-container {
+    width: 50vw;
+    position: fixed;
+    right: -5px;
+    margin-top: -60px;
+    margin-right: 50px;
+  }
+}

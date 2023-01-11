@@ -1,0 +1,22 @@
+.toy-sort {
+  display: flex;
+  align-items: center;
+
+  &::placeholder {
+    font-family: PTSansCaption-Regular;
+  }
+}
+
+.toy-sort-option {
+  margin-left: 20px;
+  height: 30px;
+  width: 150px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--clr1);
+
+  &::placeholder {
+    font-family: PTSansCaption-Regular;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,31 @@
+.toy-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.toy-filter-name {
+  margin-left: 20px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid var(--clr1);
+
+  &::placeholder {
+    font-family: PTSansCaption-Regular;
+    font-size: 1rem;
+  }
+}
+
+.toy-filter-price {
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--clr1);
+
+  &::placeholder {
+    font-family: PTSansCaption-Regular;
+    font-size: 1rem;
+  }
+}
