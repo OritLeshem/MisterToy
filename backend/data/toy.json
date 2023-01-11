@@ -1,0 +1,45 @@
+[
+  {
+    "name": "z",
+    "price": 2,
+    "labels": [],
+    "createdAt": "2023-01-10T16:20:45.435Z",
+    "inStock": true,
+    "_id": "NlK4F"
+  },
+  {
+    "_id": "118064",
+    "name": "baby",
+    "price": 22,
+    "labels": [
+      "Art",
+      "Box game",
+      "On wheels"
+    ],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "_id": "118063",
+    "name": "teddy",
+    "price": 38,
+    "labels": [
+      "Art",
+      "Box game",
+      "Baby"
+    ],
+    "createdAt": 1631031801011,
+    "inStock": false
+  },
+  {
+    "_id": "118062",
+    "name": "truck",
+    "price": 79,
+    "labels": [
+      "Art",
+      "Box game"
+    ],
+    "createdAt": 1631031801011,
+    "inStock": true
+  }
+]
