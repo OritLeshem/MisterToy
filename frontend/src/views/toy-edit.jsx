@@ -15,13 +15,17 @@ export function ToyEdit() {
     loadToy()
   }, [])
 
-  function loadToy() {
-    toyService.getById(toyId)
-      .then((toy) => setToyToEdit(toy))
-      .catch((err) => {
-        console.log('Had issues in toy details', err)
-        navigate('/toy')
-      })
+  async function loadToy() {
+
+
+    try {
+      const toy = await toyService.getById(toyId)
+      setToyToEdit(toy)
+    }
+    catch (err) {
+      console.log('Had issues in toy details', err)
+      navigate('/toy')
+    }
   }
 
   function handleChange({ target }) {
@@ -30,18 +34,20 @@ export function ToyEdit() {
     setToyToEdit((prevToy) => ({ ...prevToy, [field]: value }))
   }
 
-  function onSaveToy(ev) {
+  async function onSaveToy(ev) {
     ev.preventDefault()
-    saveToy(toyToEdit)
-      .then((toy) => {
-        console.log('toy saved', toy);
-        showSuccessMsg('Toy saved!')
-        navigate('/toy')
-      })
-      .catch(err => {
-        console.log('err', err)
-        showErrorMsg('Cannot save toy')
-      })
+    // saveToy(toyToEdit)
+
+    try {
+      const toy = await saveToy(toyToEdit)
+      console.log('toy saved', toy);
+      showSuccessMsg('Toy saved!')
+      navigate('/toy')
+    }
+    catch (err) {
+      console.log('err', err)
+      showErrorMsg('Cannot save toy')
+    }
   }
 
   return <section className="toy-edit">

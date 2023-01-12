@@ -1,17 +1,17 @@
 .homepage {
-  display: flex;
+  // display: flex;
 
 
   h1 {
-    font-size: 13rem;
-    margin-top: 200px;
+    font-size: 10rem;
+    margin-top: 300px;
   }
 
   .homepage-img-container {
-    width: 50vw;
+    width: 30vw;
     position: fixed;
-    right: -5px;
-    margin-top: -60px;
-    margin-right: 50px;
+    right: 0px;
+    top: 50px // margin-top: -60px;
+      // margin-right: 50px;
   }
 }

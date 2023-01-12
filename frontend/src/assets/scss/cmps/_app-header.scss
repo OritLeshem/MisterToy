@@ -1,7 +1,11 @@
 .app-header {
-  background-color: var(--clr1);
+  background-color: $clr1;
   color: var(--clr2);
   padding: 0.5em;
+  // position: fixed;
+  // top: 0;
+  width: 100vw;
+  margin-bottom: 20px;
 
 
   .app-header-nav {

@@ -12,7 +12,7 @@ export function ToyPreview({ toy, onRemoveToy }) {
       <div className="btn-icon-container">
         <NavLink to={`/toy/${toy._id}`}><img className="btn-icon" src={require(`../assets/img/detail.png`)} alt="" /></NavLink>
         <NavLink to={`/toy/edit/${toy._id}`}><img className="btn-icon" src={require(`../assets/img/edit.png`)} alt="" /></NavLink>
-        <button className="btn" onClick={() => { onRemoveToy(toy._id) }}><img className="btn-icon" src={require(`../assets/img/garbage1.png`)} alt="" /></button>
+        <button className="btn" onClick={() => { onRemoveToy(toy._id) }}><img className="btn-icon" src={require(`../assets/img/garbage2.png`)} alt="" /></button>
       </div>
     </article>
   )

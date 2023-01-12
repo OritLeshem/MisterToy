@@ -2,6 +2,18 @@
 //   background-color: rgb(175, 199, 19);
 // }
 
+/* Setup */
+@import 'setup/_vars.scss';
+@import 'setup/typography.scss';
+@import 'setup/fonts.scss';
+@import 'setup/layout.scss';
+
+/* Base */
+@import 'base/base.scss';
+// @import 'base/helpers.css';
+// @import 'base/layout.css';
+// @import 'base/forms.css';
+
 // /* Components */
 @import 'cmps/_app-header.scss';
 @import 'cmps/_app-footer.scss';
@@ -20,17 +32,6 @@
 
 
 
-/* Setup */
-@import 'setup/vars.scss';
-@import 'setup/typography.scss';
-@import 'setup/fonts.scss';
-@import 'setup/layout.scss';
-
-/* Base */
-@import 'base/base.scss';
-// @import 'base/helpers.css';
-// @import 'base/layout.css';
-// @import 'base/forms.css';
 
 // /* Components */
 // @import 'cmps/app-header.css';

@@ -34,7 +34,15 @@ export function ToyIndex() {
   }, [filterBy, sortBy])
 
 
-  function onLoadToys(filterBy, sortBy) {
+  async function onLoadToys(filterBy, sortBy) {
+
+    try {
+      await loadToys(filterBy, sortBy)
+    }
+    catch {
+      showErrorMsg('Cannot load toys')
+    }
+
     loadToys(filterBy, sortBy)
       .catch(err => {
         showErrorMsg('Cannot load toys')

@@ -20,7 +20,7 @@ function App() {
       <Router>
         <section className="app main-layout">
           <AppHeader />
-          <main>
+          <main className="main">
             <Routes>
               <Route element={<HomePage />} path="/" />
               <Route element={<AboutUs />} path="/about" />
@@ -33,7 +33,7 @@ function App() {
 
             </Routes>
           </main>
-          {/* <AppFooter /> */}
+          <AppFooter />
 
         </section>
       </Router>
