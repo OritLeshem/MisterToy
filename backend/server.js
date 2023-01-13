@@ -14,15 +14,24 @@ app.use(cookieParser())
 app.use(express.static('public'))
 
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static('public'));
+  // Express serve static files on production environment
+  app.use(express.static(path.resolve(__dirname, 'public')))
 } else {
+  // Configuring CORS
   const corsOptions = {
-    origin: ['http://127.0.0.1:3000', 'http://localhost:3000'],
+    // Make sure origin contains the url your frontend is running on
+    origin: ['http://127.0.0.1:8080', 'http://localhost:8080', 'http://127.0.0.1:3000', 'http://localhost:3000'],
     credentials: true
-  };
-  app.use(cors(corsOptions));
+  }
+  app.use(cors(corsOptions))
 }
+const authRoutes = require('./api/auth/auth.routes')
+
+const userRoutes = require('./api/user/user.routes')
 const toyRoutes = require('./api/toy/toy.routes')
+app.use('/api/auth', authRoutes)
+
+app.use('/api/user', userRoutes)
 app.use('/api/toy', toyRoutes)
 
 // app.get('/api/toy', (req, res) => {
@@ -87,12 +96,13 @@ app.use('/api/toy', toyRoutes)
 //     })
 // })
 
-const port = 3030
-app.listen(port, () => {
-  console.log(`Server is up and listening to ${port}`.rainbow);
-})
 
 
 app.get('/**', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'))
+})
+const logger = require('./services/logger.service')
+const port = 3030
+app.listen(port, () => {
+  console.log(`Server is up and listening to ${port}`.rainbow);
 })

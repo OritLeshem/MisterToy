@@ -1,0 +1,10 @@
+12.1.2023, 17:07:56 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+12.1.2023, 17:07:56 - ERROR - Failed to signup fullname, username and password are required! 
+12.1.2023, 17:08:01 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+12.1.2023, 17:08:01 - ERROR - Failed to signup fullname, username and password are required! 
+12.1.2023, 17:09:44 - DEBUG - auth.service - signup with username: qq, fullname: qq 
+12.1.2023, 17:09:44 - DEBUG - auth.route - new account created: {"username":"qq","password":"$2b$10$HY2zvs60SEkNEwocrv3g4ugS4Ntlomq0hYcH8PViDRLPXOFmxq4OK","fullname":"qq","_id":"63c08528078b4fad7376e319"} 
+12.1.2023, 17:09:44 - DEBUG - auth.service - login with username: qq 
+12.1.2023, 17:09:45 - INFO - User login:  | {"_id":"63c08528078b4fad7376e319","username":"qq","fullname":"qq"} 
+12.1.2023, 17:09:52 - DEBUG - auth.service - login with username: qq 
+12.1.2023, 17:09:52 - INFO - User login:  | {"_id":"63c08528078b4fad7376e319","username":"qq","fullname":"qq"} 

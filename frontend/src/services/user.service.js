@@ -12,7 +12,8 @@ export const userService = {
     signup,
     getById,
     getLoggedinUser,
-    updateScore
+
+    getEmptyCredentials
 }
 
 window.us = userService
@@ -22,7 +23,7 @@ function getById(userId) {
 }
 
 function login(credentials) {
-    return httpService.post(BASE_URL + 'login', credentials)
+    return httpService.post('auth/login', credentials)
         .then(_setLoggedinUser)
         .catch(err => {
             console.log('err:', err)
@@ -46,11 +47,13 @@ function login(credentials) {
 //         })
 // }
 
-
+function getEmptyCredentials(fullname = '', username = '', password = 'secret') {
+    return { fullname, username, password }
+}
 
 function signup({ username, password, fullname }) {
-    const user = { username, password, fullname, score: 10000 }
-    return httpService.post(BASE_URL + 'signup', user)
+    const user = { username, password, fullname }
+    return httpService.post('auth/signup', user)
         .then(_setLoggedinUser)
 }
 
@@ -75,8 +78,8 @@ function updateScore(diff) {
 }
 
 function logout() {
-    return httpService.post(BASE_URL + 'logout')
-        .then(()=>{
+    return httpService.post('auth/logout')
+        .then(() => {
             sessionStorage.removeItem(STORAGE_KEY_LOGGEDIN)
         })
 }
@@ -86,7 +89,7 @@ function getLoggedinUser() {
 }
 
 function _setLoggedinUser(user) {
-    const userToSave = { _id: user._id, fullname: user.fullname, score: user.score }
+    const userToSave = { _id: user._id, fullname: user.fullname }
     sessionStorage.setItem(STORAGE_KEY_LOGGEDIN, JSON.stringify(userToSave))
     return userToSave
 }
