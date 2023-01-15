@@ -1,0 +1,35 @@
+.toy-details {
+  // display: flex;
+}
+
+.toy-details-img {
+  width: 30vw;
+  margin: 100px auto;
+
+}
+
+.toy-details-info {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  justify-self: stretch;
+
+  h1,
+  h5 {
+    font-family: PTSansCaption-Regular;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  p {
+    font-family: PTSansCaption-Regular;
+    // font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.toy-details-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

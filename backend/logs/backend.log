@@ -8,3 +8,49 @@
 12.1.2023, 17:09:45 - INFO - User login:  | {"_id":"63c08528078b4fad7376e319","username":"qq","fullname":"qq"} 
 12.1.2023, 17:09:52 - DEBUG - auth.service - login with username: qq 
 12.1.2023, 17:09:52 - INFO - User login:  | {"_id":"63c08528078b4fad7376e319","username":"qq","fullname":"qq"} 
+13.1.2023, 9:17:15 - INFO - Server is running on port: 3030 
+13.1.2023, 9:17:25 - INFO - Server is running on port: 3030 
+13.1.2023, 9:18:22 - INFO - Server is running on port: 3030 
+13.1.2023, 9:25:40 - INFO - Server is running on port: 3030 
+13.1.2023, 9:25:56 - INFO - Server is running on port: 3030 
+13.1.2023, 9:27:08 - INFO - Server is running on port: 3030 
+13.1.2023, 9:27:54 - INFO - Server is running on port: 3030 
+13.1.2023, 9:29:46 - DEBUG - auth.service - signup with username: z, fullname: z 
+13.1.2023, 9:29:46 - DEBUG - auth.route - new account created: {"username":"z","password":"$2b$10$H5WZW1TbKptjGI/nJv.rTO8UVd5LEAi6wOSGiIwiHh5lTGtFr4MhG","fullname":"z","_id":"63c16adaf8a22ceda0ab054a"} 
+13.1.2023, 9:29:46 - DEBUG - auth.service - login with username: z 
+13.1.2023, 9:29:46 - INFO - User login:  | {"_id":"63c16adaf8a22ceda0ab054a","username":"z","fullname":"z"} 
+13.1.2023, 9:33:32 - INFO - Server is running on port: 3030 
+13.1.2023, 9:34:01 - INFO - Server is running on port: 3030 
+13.1.2023, 9:35:45 - INFO - Server is running on port: 3030 
+13.1.2023, 9:38:26 - DEBUG - auth.service - signup with username: v, fullname: v 
+13.1.2023, 9:38:26 - DEBUG - auth.service - login with username: v 
+13.1.2023, 9:38:26 - DEBUG - auth.route - new account created: {"username":"v","password":"$2b$10$UxBX.rk4TZ9hIighc.vJcOsEwYnaPH7hCwi4gA7KA/tR8HXz6rvCy","fullname":"v","_id":"63c16ce255ad7da025400be8"} 
+13.1.2023, 9:38:26 - INFO - User login:  | {"_id":"63c16ce255ad7da025400be8","username":"v","fullname":"v"} 
+13.1.2023, 9:39:11 - INFO - Server is running on port: 3030 
+14.1.2023, 10:10:05 - DEBUG - auth.service - signup with username: aa, fullname: aa 
+14.1.2023, 10:10:05 - DEBUG - auth.route - new account created: {"username":"aa","password":"$2b$10$lgGSr2i0oCdHq8mpUzhaHOm.Fa2lvO8WgRKOkvFUHBIcipK94g856","fullname":"aa","_id":"63c2c5cda60168c5285e5b14"} 
+14.1.2023, 10:10:05 - DEBUG - auth.service - login with username: aa 
+14.1.2023, 10:10:05 - INFO - User login:  | {"_id":"63c2c5cda60168c5285e5b14","username":"aa","fullname":"aa"} 
+14.1.2023, 10:31:59 - DEBUG - auth.service - login with username: aa 
+14.1.2023, 10:31:59 - INFO - User login:  | {"_id":"63c2c5cda60168c5285e5b14","username":"aa","fullname":"aa"} 
+14.1.2023, 10:44:53 - DEBUG - auth.service - login with username: undefined 
+14.1.2023, 10:44:53 - ERROR - Failed to Login Invalid username or password 
+14.1.2023, 10:44:55 - DEBUG - auth.service - login with username: undefined 
+14.1.2023, 10:44:55 - ERROR - Failed to Login Invalid username or password 
+14.1.2023, 10:45:20 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+14.1.2023, 10:45:20 - ERROR - Failed to signup fullname, username and password are required! 
+14.1.2023, 10:45:27 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+14.1.2023, 10:45:27 - ERROR - Failed to signup fullname, username and password are required! 
+14.1.2023, 10:45:49 - DEBUG - auth.service - login with username: undefined 
+14.1.2023, 10:45:49 - ERROR - Failed to Login Invalid username or password 
+14.1.2023, 10:45:51 - DEBUG - auth.service - signup with username: undefined, fullname: undefined 
+14.1.2023, 10:45:51 - ERROR - Failed to signup fullname, username and password are required! 
+14.1.2023, 10:45:52 - DEBUG - auth.service - login with username: undefined 
+14.1.2023, 10:45:52 - ERROR - Failed to Login Invalid username or password 
+14.1.2023, 10:45:53 - DEBUG - auth.service - login with username: undefined 
+14.1.2023, 10:45:53 - ERROR - Failed to Login Invalid username or password 
+14.1.2023, 10:52:54 - DEBUG - auth.service - login with username: aa 
+14.1.2023, 10:52:54 - INFO - User login:  | {"_id":"63c2c5cda60168c5285e5b14","username":"aa","fullname":"aa"} 
+14.1.2023, 13:13:59 - INFO - Server is running on port: 3030 
+14.1.2023, 13:43:50 - DEBUG - auth.service - login with username: aa 
+14.1.2023, 13:43:50 - INFO - User login:  | {"_id":"63c2c5cda60168c5285e5b14","username":"aa","fullname":"aa"} 

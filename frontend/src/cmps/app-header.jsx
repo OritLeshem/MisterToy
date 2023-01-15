@@ -38,21 +38,23 @@ export function AppHeader() {
     return (
         <header className="app-header main-layout full">
             <nav className='app-header-nav'>
+                <div className='app-header-nav-links'>
+                    <NavLink to="/"><img className="logo" src={require(`../assets/img/bee.png`)} alt="" /></NavLink>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/toy">Toys</NavLink>
+                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/dashboard">Dashbord</NavLink>
+                </div>
+                <div className='app-header-nav-login'>
+                    {user && <section className="user-info">
+                        <p>{user.fullname} <span></span></p>
+                        <button className='btn-icon' onClick={onLogout}><img src={require(`../assets/img/logout.png`)} alt="" /></button>
+                    </section>}
 
-                <NavLink to="/"><img className="logo" src={require(`../assets/img/bee.png`)} alt="" /></NavLink>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/toy">Toys</NavLink>
-                <NavLink to="/about">About</NavLink>
-                <NavLink to="/dashboard">Dashbord</NavLink>
-                {user && <section className="user-info">
-                    <p>{user.fullname} <span></span></p>
-                    <button onClick={onLogout}>Logout</button>
-                </section>}
-
-                {!user && <section className="user-info">
-                    <LoginSignup setUser={setUser} />
-                </section>}
-
+                    {!user && <section className="user-info">
+                        <LoginSignup setUser={setUser} />
+                    </section>}
+                </div>
 
             </nav>
 

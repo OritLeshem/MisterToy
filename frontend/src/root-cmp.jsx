@@ -10,7 +10,7 @@ import { Provider } from 'react-redux';
 import { store } from './store/store';
 import { ToyEdit } from './views/toy-edit';
 import { ToyDetails } from './views/toy-details';
-import { DashboardPage } from './views/dashbord-page';
+import { DashboardPage } from './views/dashboard-page';
 // import './assets/css/main.css'
 import './assets/scss/main.scss'
 

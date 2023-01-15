@@ -6,8 +6,10 @@
 
 .main-layout {
     display: grid;
-    grid-template-columns: var(--layoutPadding) 1fr var(--layoutPadding);
-    // grid-template-columns: $layoutPadding 1fr $layoutPadding;
+    // grid-template-columns: var(--layoutPadding) 1fr var(--layoutPadding);
+
+    // grid-template-columns: var(--layoutPadding) 1fr var(--layoutPadding);
+    grid-template-columns: $layoutPadding 1fr $layoutPadding;
 
     >* {
         grid-column: 2;

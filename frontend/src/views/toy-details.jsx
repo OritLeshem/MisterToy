@@ -25,11 +25,17 @@ export function ToyDetails() {
 
   if (!toy) return <div>Loading...</div>
   return <section className="toy-details">
-    <h1>Toy name : {toy.name}</h1>
-    <h5>Price: ${toy.price}</h5>
+    <div className="toy-details-img"><img src={toy.img} /></div>
+    <div className="toy-details-info">
+      <h1> {toy.name}</h1>
+      <h5>Price: ${toy.price}</h5>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptas cumque tempore, aperiam sed dolorum rem! Nemo quidem, placeat perferendis tempora aspernatur sit, explicabo veritatis corrupti perspiciatis repellat, enim quibusdam!</p>
-    <Link to={`/toy/edit/${toy._id}`}>Edit</Link>
-    <Link to={`/toy`}>Back</Link>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptas cumque tempore, aperiam sed dolorum rem! Nemo quidem, placeat perferendis tempora aspernatur sit, explicabo veritatis corrupti perspiciatis repellat, enim quibusdam!</p>
+
+      <div className="toy-details-btn">
+        <Link to={`/toy`}><img className="btn-icon" src={require(`../assets/img/undo.png`)} alt="" /></Link>
+        <Link to={`/toy/edit/${toy._id}`}><img className="btn-icon" src={require(`../assets/img/edit.png`)} alt="" /></Link>
+      </div>
+    </div>
   </section>
 }

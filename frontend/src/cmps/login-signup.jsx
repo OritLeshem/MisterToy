@@ -34,15 +34,17 @@ export function LoginSignup({ setUser }) {
         showErrorMsg('OOps try again')
       })
   }
-
   function onToggleSignupState() {
     setIsSignupState(!isSignupState)
   }
+  // function onToggleSignupState(signOrLogin) {
+  //   setIsSignupState(signOrLogin)
+  // }
 
   const { username, password, fullname } = credentials
-  return <div className="login-page">
+  return <div className="login-signup">
 
-    <form className="login-form" onSubmit={onSubmit}>
+    <form className="login-signup-form" onSubmit={onSubmit}>
       <input
         type="text"
         name="username"
@@ -71,14 +73,16 @@ export function LoginSignup({ setUser }) {
         required
       />}
 
-      <button>{isSignupState ? 'Signup' : 'Login'}</button>
+      <button className="btn-icon">{isSignupState ? <img src={require(`../assets/img/signup.png`)} alt="" /> : <img src={require(`../assets/img/login.png`)} alt="" />}</button>
     </form>
 
-    <div className="btns">
+    <div className="login-signup-btns">
       <a href="#" onClick={onToggleSignupState}>
         {isSignupState ? 'Already a member? Login' : 'New user? Signup here'}
       </a >
     </div>
+    {/* <button onClick={() => onToggleSignupState(login)}>login</button>
+    <button onClick={() => onToggleSignupState(signup)}>signup</button> */}
   </div >
 
 }

@@ -15,9 +15,9 @@
     "createdAt": 1599073368512
   },
   {
-    "fullName": "Dainel",
-    "username": "dani",
-    "password": "secret",
+    "fullName": "admin",
+    "username": "admin",
+    "password": "admin",
     "isAdmin": true,
     "createdAt": 1598948593211
   },

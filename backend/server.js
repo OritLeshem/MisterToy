@@ -106,3 +106,4 @@ const port = 3030
 app.listen(port, () => {
   console.log(`Server is up and listening to ${port}`.rainbow);
 })
+logger.info('Server is running on port: ' + port)

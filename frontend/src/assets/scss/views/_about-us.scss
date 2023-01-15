@@ -1,0 +1,25 @@
+h2,
+h3,
+p {
+  font-family: PTSansCaption-Regular;
+
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.stores-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.map-container {
+  width: 80%;
+}
+
+.info-stores {
+  margin-top: 0;
+}

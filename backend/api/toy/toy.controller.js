@@ -28,15 +28,16 @@ async function removeToy(req, res) {
 }
 
 async function addToy(req, res) {
-  // const { loggedinUser } = req
+  const { loggedinUser } = req
 
   try {
     const toy = req.body
-    // toy.owner = loggedinUser
+    toy.owner = loggedinUser
+    console.log('added toy', toy, 'by', toy.owner)
     const addedToy = await toyService.add(toy)
     res.json(addedToy)
   } catch (err) {
-    // logger.error('Failed to add toy', err)
+    logger.error('Failed to add toy', err)
     res.status(500).send({ err: 'Failed to add toy' })
   }
 }

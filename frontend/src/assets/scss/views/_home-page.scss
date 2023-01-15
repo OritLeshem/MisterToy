@@ -1,17 +1,19 @@
 .homepage {
+
   // display: flex;
+  .homepage-cover-img {
+    // margin: 0;
+    // width: 80vw;
 
-
-  h1 {
-    font-size: 10rem;
-    margin-top: 300px;
   }
 
-  .homepage-img-container {
-    width: 30vw;
-    position: fixed;
-    right: 0px;
-    top: 50px // margin-top: -60px;
-      // margin-right: 50px;
+  h2 {
+    font-size: 1.3rem;
+    margin-top: 40px;
+    font-family: PTSansCaption-Regular;
+    text-align: center;
   }
+
+
+
 }

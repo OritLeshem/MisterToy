@@ -1,18 +1,41 @@
 .app-header {
   background-color: $clr1;
   color: var(--clr2);
-  padding: 0.5em;
+  padding-top: 0.5em;
   // position: fixed;
   // top: 0;
   width: 100vw;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
 
 
   .app-header-nav {
     display: flex;
-    width: 30vw;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+
+  }
+
+  .app-header-nav-login {
+
+    .btn-icon {
+      background-color: ($clr1);
+      width: 50px;
+      border: none;
+    }
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .app-header-nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+
   }
 
   .logo {

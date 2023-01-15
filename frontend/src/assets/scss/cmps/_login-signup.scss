@@ -1,0 +1,15 @@
+.login-signup-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  input {
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    font-family: PTSansCaption-Regular;
+    color: ($clr2);
+  }
+}

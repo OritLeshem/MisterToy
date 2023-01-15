@@ -1,0 +1,17 @@
+.chart-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+
+  h2 {
+    font-family: PTSansCaption-Regular;
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+
+  .chart {
+    width: 30vw;
+    margin: 30px auto;
+  }
+}

@@ -5,7 +5,7 @@ const ObjectId = require('mongodb').ObjectId
 
 async function query(filterBy = { name: '', price: JSON.parse(-Infinity) }) {
   try {
-    console.log(filterBy.price, 'price')
+    // console.log(filterBy.price, 'price')
     const criteria = {
       name: { $regex: filterBy.name, $options: 'i' },
       // price: { $lte: filterBy.price }
