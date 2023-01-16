@@ -63,12 +63,12 @@ export function HomePage() {
     <div style={containerStyles}>
       <ImageSlider slides={slides} />
     </div>
-    <h2>Our best seller</h2>
+    <h2>Our best sellers</h2>
     <ul className="toy-list">
-      <ToyPreview toy={toys[0]} onRemoveToy={onRemoveToy} />
+      {/* <ToyPreview toy={toys[0]} onRemoveToy={onRemoveToy} />
       <ToyPreview toy={toys[1]} onRemoveToy={onRemoveToy} />
       <ToyPreview toy={toys[2]} onRemoveToy={onRemoveToy} />
-      <ToyPreview toy={toys[3]} onRemoveToy={onRemoveToy} />
+      <ToyPreview toy={toys[3]} onRemoveToy={onRemoveToy} /> */}
     </ul>
 
   </div>

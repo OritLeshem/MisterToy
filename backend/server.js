@@ -26,13 +26,19 @@ if (process.env.NODE_ENV === 'production') {
   app.use(cors(corsOptions))
 }
 const authRoutes = require('./api/auth/auth.routes')
-
 const userRoutes = require('./api/user/user.routes')
-const toyRoutes = require('./api/toy/toy.routes')
-app.use('/api/auth', authRoutes)
+const reviewRoutes = require('./api/review/review.routes')
 
+const toyRoutes = require('./api/toy/toy.routes')
+const { setupSocketAPI } = require('./services/socket.service')
+const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
+app.all('*', setupAsyncLocalStorage)
+
+app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
+app.use('/api/review', reviewRoutes)
 app.use('/api/toy', toyRoutes)
+setupSocketAPI(http)
 
 // app.get('/api/toy', (req, res) => {
 //   console.log(req.query)
@@ -103,7 +109,7 @@ app.get('/**', (req, res) => {
 })
 const logger = require('./services/logger.service')
 const port = 3030
-app.listen(port, () => {
+http.listen(port, () => {
   console.log(`Server is up and listening to ${port}`.rainbow);
 })
 logger.info('Server is running on port: ' + port)

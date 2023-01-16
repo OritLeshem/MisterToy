@@ -54,3 +54,626 @@
 14.1.2023, 13:13:59 - INFO - Server is running on port: 3030 
 14.1.2023, 13:43:50 - DEBUG - auth.service - login with username: aa 
 14.1.2023, 13:43:50 - INFO - User login:  | {"_id":"63c2c5cda60168c5285e5b14","username":"aa","fullname":"aa"} 
+15.1.2023, 8:10:47 - DEBUG - auth.service - signup with username: cc, fullname: cc 
+15.1.2023, 8:10:48 - DEBUG - auth.route - new account created: {"username":"cc","password":"$2b$10$iIwTThQdl4UHSLOKMaY38OXcPM8XkQFZ8e5oz9C5kbn1Ysy0ImlRS","fullname":"cc","_id":"63c3fb58b3e2da986e4060cd"} 
+15.1.2023, 8:10:48 - DEBUG - auth.service - login with username: cc 
+15.1.2023, 8:10:48 - INFO - User login:  | {"_id":"63c3fb58b3e2da986e4060cd","username":"cc","fullname":"cc"} 
+15.1.2023, 8:11:42 - INFO - Server is running on port: 3030 
+15.1.2023, 8:13:44 - INFO - Server is running on port: 3030 
+15.1.2023, 8:14:49 - INFO - Server is running on port: 3030 
+15.1.2023, 8:14:54 - INFO - Server is running on port: 3030 
+15.1.2023, 8:17:45 - INFO - Server is running on port: 3030 
+15.1.2023, 8:17:51 - INFO - Server is running on port: 3030 
+15.1.2023, 8:18:31 - DEBUG - auth.service - signup with username: dd, fullname: dd 
+15.1.2023, 8:18:31 - DEBUG - auth.route - new account created: {"username":"dd","password":"$2b$10$OimaKOeWEiKmEWNLsrO7oemDTOlcOANigVFNfJtEpZ0eb7f.SUlBe","fullname":"dd","_id":"63c3fd27838fe37e077df285"} 
+15.1.2023, 8:18:31 - DEBUG - auth.service - login with username: dd 
+15.1.2023, 8:18:31 - INFO - User login:  | {"_id":"63c3fd27838fe37e077df285","username":"dd","fullname":"dd"} 
+15.1.2023, 8:21:48 - DEBUG - auth.service - login with username: aa 
+15.1.2023, 8:21:48 - INFO - User login:  | {"_id":"63c2c5cda60168c5285e5b14","username":"aa","fullname":"aa"} 
+15.1.2023, 8:22:56 - DEBUG - auth.service - login with username: dd 
+15.1.2023, 8:22:56 - INFO - User login:  | {"_id":"63c3fd27838fe37e077df285","username":"dd","fullname":"dd"} 
+15.1.2023, 8:40:10 - DEBUG - auth.service - signup with username: oo, fullname: oo 
+15.1.2023, 8:40:10 - DEBUG - auth.route - new account created: {"username":"oo","password":"$2b$10$vKkLDqpreqw6pyka9crJQ.xRil3e8SPJwRpFfTY2LiSsGI83zFuIS","fullname":"oo","_id":"63c4023a838fe37e077df287"} 
+15.1.2023, 8:40:10 - DEBUG - auth.service - login with username: oo 
+15.1.2023, 8:40:10 - INFO - User login:  | {"_id":"63c4023a838fe37e077df287","username":"oo","fullname":"oo"} 
+15.1.2023, 8:40:48 - DEBUG - auth.service - signup with username: aa, fullname: aa 
+15.1.2023, 8:40:48 - DEBUG - auth.route - new account created: {"username":"aa","password":"$2b$10$M/x7WwCfQwnosQaUKmkt.eIzJuAPRuXhzyN4Otqxw3gUpQkRGfqaO","fullname":"aa","_id":"63c40260838fe37e077df28a"} 
+15.1.2023, 8:40:48 - DEBUG - auth.service - login with username: aa 
+15.1.2023, 8:40:48 - INFO - User login:  | {"_id":"63c40260838fe37e077df28a","username":"aa","fullname":"aa"} 
+15.1.2023, 8:44:50 - DEBUG - auth.service - signup with username: yo, fullname: yo 
+15.1.2023, 8:44:50 - DEBUG - auth.route - new account created: {"username":"yo","password":"$2b$10$AhPhd2jgeOCmCSXghpI6p.LzjXFo.Qhrqi4TUrwCv/Dyrq0kTAc6a","fullname":"yo","_id":"63c40352838fe37e077df28b"} 
+15.1.2023, 8:44:50 - DEBUG - auth.service - login with username: yo 
+15.1.2023, 8:44:51 - INFO - User login:  | {"_id":"63c40352838fe37e077df28b","username":"yo","fullname":"yo"} 
+15.1.2023, 8:45:44 - DEBUG - auth.service - signup with username: zz, fullname: zz 
+15.1.2023, 8:45:44 - DEBUG - auth.service - login with username: zz 
+15.1.2023, 8:45:44 - DEBUG - auth.route - new account created: {"username":"zz","password":"$2b$10$kMDjKPsxn2YVO2dd2YfPx.O1SzW3QtUow0nRNP2B050njpGQtIKFK","fullname":"zz","_id":"63c40388838fe37e077df28d"} 
+15.1.2023, 8:45:44 - INFO - User login:  | {"_id":"63c40388838fe37e077df28d","username":"zz","fullname":"zz"} 
+15.1.2023, 8:50:38 - INFO - Server is running on port: 3030 
+15.1.2023, 8:52:28 - INFO - Server is running on port: 3030 
+15.1.2023, 8:57:30 - INFO - Server is running on port: 3030 
+15.1.2023, 8:58:07 - INFO - Server is running on port: 3030 
+15.1.2023, 9:04:51 - DEBUG - auth.service - login with username: zz 
+15.1.2023, 9:04:51 - INFO - User login:  | {"_id":"63c40388838fe37e077df28d","username":"zz","fullname":"zz"} 
+15.1.2023, 9:05:05 - DEBUG - auth.service - login with username: yo 
+15.1.2023, 9:05:05 - INFO - User login:  | {"_id":"63c40352838fe37e077df28b","username":"yo","fullname":"yo"} 
+15.1.2023, 9:29:13 - INFO - Server is running on port: 3030 
+15.1.2023, 9:34:00 - INFO - Server is running on port: 3030 
+15.1.2023, 9:36:07 - INFO - Server is running on port: 3030 
+15.1.2023, 9:36:58 - INFO - Server is running on port: 3030 
+15.1.2023, 9:53:55 - DEBUG - auth.service - login with username: zz 
+15.1.2023, 9:53:56 - INFO - User login:  | {"_id":"63c40388838fe37e077df28d","username":"zz","fullname":"zz"} 
+15.1.2023, 9:54:03 - DEBUG - auth.service - login with username: zz 
+15.1.2023, 9:54:03 - INFO - User login:  | {"_id":"63c40388838fe37e077df28d","username":"zz","fullname":"zz"} 
+15.1.2023, 9:54:04 - DEBUG - auth.service - login with username: zz 
+15.1.2023, 9:54:05 - INFO - User login:  | {"_id":"63c40388838fe37e077df28d","username":"zz","fullname":"zz"} 
+15.1.2023, 9:54:10 - DEBUG - auth.service - login with username: yo 
+15.1.2023, 9:54:10 - INFO - User login:  | {"_id":"63c40352838fe37e077df28b","username":"yo","fullname":"yo"} 
+15.1.2023, 9:54:33 - DEBUG - auth.service - login with username: yo 
+15.1.2023, 9:54:34 - INFO - User login:  | {"_id":"63c40352838fe37e077df28b","username":"yo","fullname":"yo"} 
+15.1.2023, 9:54:34 - DEBUG - auth.service - login with username: yo 
+15.1.2023, 9:54:34 - INFO - User login:  | {"_id":"63c40352838fe37e077df28b","username":"yo","fullname":"yo"} 
+15.1.2023, 9:54:41 - DEBUG - auth.service - signup with username: yo, fullname: yo 
+15.1.2023, 9:54:41 - DEBUG - auth.service - login with username: yo 
+15.1.2023, 9:54:41 - DEBUG - auth.route - new account created: {"username":"yo","password":"$2b$10$PLSLBId/NXmeCpK0YPyqeO4z8MS3Vup3WNfdRBWCwYZpCV1jvp5iy","fullname":"yo","_id":"63c413b1f0ee35a580fcbc08"} 
+15.1.2023, 9:54:41 - INFO - User login:  | {"_id":"63c40352838fe37e077df28b","username":"yo","fullname":"yo"} 
+15.1.2023, 9:54:42 - DEBUG - auth.service - signup with username: yo, fullname: yo 
+15.1.2023, 9:54:42 - DEBUG - auth.route - new account created: {"username":"yo","password":"$2b$10$ydQzCRY19NrtO1LVIO/xmevFvMlbpJu6.kYRCZbZ4dxgCUOdEvziS","fullname":"yo","_id":"63c413b2f0ee35a580fcbc09"} 
+15.1.2023, 9:54:42 - DEBUG - auth.service - login with username: yo 
+15.1.2023, 9:54:42 - INFO - User login:  | {"_id":"63c40352838fe37e077df28b","username":"yo","fullname":"yo"} 
+15.1.2023, 9:55:29 - DEBUG - auth.service - login with username: yo 
+15.1.2023, 9:55:29 - INFO - User login:  | {"_id":"63c40352838fe37e077df28b","username":"yo","fullname":"yo"} 
+15.1.2023, 9:56:33 - DEBUG - auth.service - signup with username: rr, fullname: rr 
+15.1.2023, 9:56:33 - DEBUG - auth.route - new account created: {"username":"rr","password":"$2b$10$SK5LnJgzP7ozuu0gFNPi.uQzrJigQWQm7WQ4lS8QgRSH/SziOcJP2","fullname":"rr","_id":"63c41421f0ee35a580fcbc0a"} 
+15.1.2023, 9:56:33 - DEBUG - auth.service - login with username: rr 
+15.1.2023, 9:56:33 - INFO - User login:  | {"_id":"63c41421f0ee35a580fcbc0a","username":"rr","fullname":"rr"} 
+15.1.2023, 11:07:44 - INFO - Req was made 
+15.1.2023, 11:07:55 - INFO - Req was made 
+15.1.2023, 12:14:19 - DEBUG - auth.service - login with username: admin 
+15.1.2023, 12:14:19 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 12:14:26 - DEBUG - auth.service - login with username: zz 
+15.1.2023, 12:14:27 - INFO - User login:  | {"_id":"63c40388838fe37e077df28d","username":"zz","fullname":"zz"} 
+15.1.2023, 12:14:39 - INFO - Req was made 
+15.1.2023, 12:15:11 - INFO - Req was made 
+15.1.2023, 12:15:27 - INFO - Req was made 
+15.1.2023, 12:15:27 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 12:20:39 - INFO - Req was made 
+15.1.2023, 12:32:07 - INFO - Req was made 
+15.1.2023, 12:33:15 - INFO - Req was made 
+15.1.2023, 12:34:17 - INFO - Req was made 
+15.1.2023, 12:38:38 - INFO - Req was made 
+15.1.2023, 12:40:31 - INFO - Req was made 
+15.1.2023, 12:42:31 - INFO - Server is running on port: 3030 
+15.1.2023, 12:42:59 - INFO - Req was made 
+15.1.2023, 12:42:59 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 12:43:12 - INFO - Server is running on port: 3030 
+15.1.2023, 12:43:16 - INFO - Req was made 
+15.1.2023, 12:43:16 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 12:45:13 - INFO - Req was made 
+15.1.2023, 12:45:19 - INFO - Req was made 
+15.1.2023, 12:45:19 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 12:46:06 - INFO - Req was made 
+15.1.2023, 12:46:10 - INFO - Req was made 
+15.1.2023, 12:46:10 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 12:46:54 - INFO - Req was made 
+15.1.2023, 12:47:13 - INFO - Req was made 
+15.1.2023, 12:47:19 - INFO - Req was made 
+15.1.2023, 12:47:19 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 12:49:24 - INFO - Req was made 
+15.1.2023, 12:49:27 - INFO - Req was made 
+15.1.2023, 12:49:27 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 12:51:07 - INFO - Req was made 
+15.1.2023, 12:51:07 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 12:51:37 - INFO - Req was made 
+15.1.2023, 12:51:41 - INFO - Req was made 
+15.1.2023, 12:51:41 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 12:51:58 - INFO - Req was made 
+15.1.2023, 12:52:06 - INFO - Req was made 
+15.1.2023, 12:52:06 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 12:53:54 - INFO - Req was made 
+15.1.2023, 12:54:10 - INFO - Req was made 
+15.1.2023, 12:54:10 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 12:59:51 - INFO - Req was made 
+15.1.2023, 12:59:55 - INFO - Req was made 
+15.1.2023, 12:59:55 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 13:00:57 - INFO - Req was made 
+15.1.2023, 13:01:13 - INFO - Req was made 
+15.1.2023, 13:01:13 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 13:06:17 - INFO - Server is running on port: 3030 
+15.1.2023, 13:07:03 - INFO - Server is running on port: 3030 
+15.1.2023, 13:10:33 - INFO - Req was made 
+15.1.2023, 13:11:08 - INFO - Server is running on port: 3030 
+15.1.2023, 13:11:12 - INFO - Req was made 
+15.1.2023, 13:13:09 - INFO - Req was made 
+15.1.2023, 13:13:14 - INFO - Req was made 
+15.1.2023, 13:13:24 - INFO - Req was made 
+15.1.2023, 13:13:29 - INFO - Req was made 
+15.1.2023, 13:13:44 - INFO - Req was made 
+15.1.2023, 13:14:08 - INFO - Req was made 
+15.1.2023, 13:14:11 - INFO - Req was made 
+15.1.2023, 13:17:42 - DEBUG - auth.service - login with username: zz 
+15.1.2023, 13:17:42 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 13:17:43 - DEBUG - auth.service - login with username: zz 
+15.1.2023, 13:17:43 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 13:17:52 - DEBUG - auth.service - signup with username: zz, fullname: zz 
+15.1.2023, 13:17:52 - DEBUG - auth.route - new account created: {"username":"zz","password":"$2b$10$1gvg/LcIkjP.bLqpdEM1GOT3sQKJ08HJ5x5j4dBy9WVmV3S.d49/S","fullname":"zz","_id":"63c44350613737264eee1c81"} 
+15.1.2023, 13:17:52 - DEBUG - auth.service - login with username: zz 
+15.1.2023, 13:17:52 - INFO - User login:  | {"_id":"63c44350613737264eee1c81","username":"zz","fullname":"zz"} 
+15.1.2023, 13:17:56 - INFO - Req was made 
+15.1.2023, 13:18:00 - INFO - Req was made 
+15.1.2023, 13:20:56 - INFO - Req was made 
+15.1.2023, 13:21:06 - INFO - Req was made 
+15.1.2023, 13:21:29 - INFO - Req was made 
+15.1.2023, 13:21:33 - INFO - Req was made 
+15.1.2023, 13:22:41 - INFO - Req was made 
+15.1.2023, 13:24:41 - INFO - Server is running on port: 3030 
+15.1.2023, 13:27:21 - INFO - Server is running on port: 3030 
+15.1.2023, 13:29:06 - INFO - Req was made 
+15.1.2023, 13:29:15 - INFO - Req was made 
+15.1.2023, 13:29:18 - INFO - Req was made 
+15.1.2023, 13:32:15 - DEBUG - auth.service - login with username: zz 
+15.1.2023, 13:32:15 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 13:32:19 - DEBUG - auth.service - login with username: zz 
+15.1.2023, 13:32:19 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 13:32:25 - DEBUG - auth.service - login with username: zz 
+15.1.2023, 13:32:25 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 13:32:38 - DEBUG - auth.service - signup with username: qq, fullname: qq 
+15.1.2023, 13:32:38 - DEBUG - auth.service - login with username: qq 
+15.1.2023, 13:32:38 - DEBUG - auth.route - new account created: {"username":"qq","password":"$2b$10$Pa1EuVVcDDXrO2Wj.bnE1Ox0Vgru0RYUh5a886wxSqkCs9vK6b7EO","fullname":"qq","_id":"63c446c6b36319c0b9637d28"} 
+15.1.2023, 13:32:38 - INFO - User login:  | {"_id":"63c446c6b36319c0b9637d28","username":"qq","fullname":"qq"} 
+15.1.2023, 13:32:44 - DEBUG - auth.service - login with username: qq 
+15.1.2023, 13:32:44 - INFO - User login:  | {"_id":"63c446c6b36319c0b9637d28","username":"qq","fullname":"qq"} 
+15.1.2023, 13:34:59 - INFO - Req was made 
+15.1.2023, 13:35:05 - INFO - Req was made 
+15.1.2023, 13:35:12 - INFO - Req was made 
+15.1.2023, 13:35:15 - INFO - Req was made 
+15.1.2023, 13:37:19 - INFO - Req was made 
+15.1.2023, 13:37:29 - INFO - Req was made 
+15.1.2023, 13:38:06 - INFO - Req was made 
+15.1.2023, 13:38:09 - INFO - Req was made 
+15.1.2023, 13:38:14 - INFO - Req was made 
+15.1.2023, 13:38:16 - INFO - Req was made 
+15.1.2023, 13:40:41 - INFO - Req was made 
+15.1.2023, 13:40:43 - INFO - Req was made 
+15.1.2023, 13:46:47 - INFO - Req was made 
+15.1.2023, 13:46:56 - INFO - Req was made 
+15.1.2023, 13:51:15 - INFO - Server is running on port: 3030 
+15.1.2023, 13:51:41 - INFO - Server is running on port: 3030 
+15.1.2023, 13:52:19 - INFO - Server is running on port: 3030 
+15.1.2023, 13:52:57 - INFO - Server is running on port: 3030 
+15.1.2023, 13:53:02 - INFO - Req was made 
+15.1.2023, 13:54:08 - INFO - Server is running on port: 3030 
+15.1.2023, 13:57:48 - INFO - Req was made 
+15.1.2023, 14:05:25 - INFO - Req was made 
+15.1.2023, 14:05:29 - INFO - Req was made 
+15.1.2023, 14:10:41 - INFO - Server is running on port: 3030 
+15.1.2023, 14:10:47 - INFO - Req was made 
+15.1.2023, 14:10:55 - INFO - Req was made 
+15.1.2023, 14:12:18 - INFO - Server is running on port: 3030 
+15.1.2023, 14:12:29 - INFO - Server is running on port: 3030 
+15.1.2023, 14:12:43 - INFO - Server is running on port: 3030 
+15.1.2023, 14:13:37 - INFO - Server is running on port: 3030 
+15.1.2023, 14:13:42 - INFO - Req was made 
+15.1.2023, 14:13:45 - INFO - Req was made 
+15.1.2023, 14:17:57 - INFO - Req was made 
+15.1.2023, 14:18:13 - INFO - Req was made 
+15.1.2023, 14:18:22 - INFO - Req was made 
+15.1.2023, 14:18:23 - INFO - Req was made 
+15.1.2023, 14:18:25 - INFO - Req was made 
+15.1.2023, 14:36:21 - INFO - Req was made 
+15.1.2023, 14:37:59 - INFO - Server is running on port: 3030 
+15.1.2023, 14:38:13 - INFO - Server is running on port: 3030 
+15.1.2023, 14:38:17 - INFO - Server is running on port: 3030 
+15.1.2023, 14:50:58 - DEBUG - auth.service - signup with username: ww, fullname: ww 
+15.1.2023, 14:50:58 - DEBUG - auth.route - new account created: {"username":"ww","password":"$2b$10$v0c1uOWsd3hTuRSipaHqNeX4W.89dbgRxq5V8SiERkQ3bW7AOaoVC","fullname":"ww","_id":"63c45922603db543c3da49c6"} 
+15.1.2023, 14:50:58 - DEBUG - auth.service - login with username: ww 
+15.1.2023, 14:50:59 - INFO - User login:  | {"_id":"63c45922603db543c3da49c6","username":"ww","fullname":"ww"} 
+15.1.2023, 15:10:22 - INFO - Server is running on port: 3030 
+15.1.2023, 15:11:07 - INFO - Server is running on port: 3030 
+15.1.2023, 15:12:19 - INFO - Req was made 
+15.1.2023, 15:12:22 - INFO - Req was made 
+15.1.2023, 15:12:47 - INFO - Server is running on port: 3030 
+15.1.2023, 15:12:55 - INFO - Req was made 
+15.1.2023, 15:13:40 - INFO - Server is running on port: 3030 
+15.1.2023, 15:14:03 - INFO - Req was made 
+15.1.2023, 15:14:04 - INFO - Req was made 
+15.1.2023, 15:14:47 - INFO - Req was made 
+15.1.2023, 15:14:48 - INFO - Req was made 
+15.1.2023, 15:15:07 - INFO - Server is running on port: 3030 
+15.1.2023, 15:15:13 - INFO - Req was made 
+15.1.2023, 15:17:46 - INFO - Server is running on port: 3030 
+15.1.2023, 15:18:53 - INFO - Server is running on port: 3030 
+15.1.2023, 15:19:02 - INFO - Req was made 
+15.1.2023, 15:20:05 - INFO - Server is running on port: 3030 
+15.1.2023, 15:20:12 - INFO - Server is running on port: 3030 
+15.1.2023, 15:20:23 - INFO - Req was made 
+15.1.2023, 15:22:44 - INFO - Server is running on port: 3030 
+15.1.2023, 15:22:58 - INFO - Server is running on port: 3030 
+15.1.2023, 15:24:55 - INFO - Server is running on port: 3030 
+15.1.2023, 15:24:58 - INFO - Server is running on port: 3030 
+15.1.2023, 15:25:02 - INFO - Req was made 
+15.1.2023, 15:25:02 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:25:02 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:25:34 - INFO - Req was made 
+15.1.2023, 15:25:34 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:25:34 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:25:36 - INFO - Req was made 
+15.1.2023, 15:25:39 - INFO - Req was made 
+15.1.2023, 15:25:40 - INFO - Req was made 
+15.1.2023, 15:25:40 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:25:40 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:33:09 - INFO - Req was made 
+15.1.2023, 15:33:09 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:33:09 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:34:36 - INFO - Req was made 
+15.1.2023, 15:34:36 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:34:36 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:36:21 - INFO - Req was made 
+15.1.2023, 15:36:21 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:36:21 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:36:37 - INFO - Req was made 
+15.1.2023, 15:36:37 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:36:37 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:36:50 - INFO - Req was made 
+15.1.2023, 15:36:50 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:36:50 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:37:00 - INFO - Req was made 
+15.1.2023, 15:37:00 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:37:00 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:40:31 - INFO - Req was made 
+15.1.2023, 15:40:31 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:40:31 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:40:50 - INFO - Req was made 
+15.1.2023, 15:40:50 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:40:50 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:42:11 - INFO - Server is running on port: 3030 
+15.1.2023, 15:43:01 - INFO - Server is running on port: 3030 
+15.1.2023, 15:43:11 - INFO - Server is running on port: 3030 
+15.1.2023, 15:43:17 - INFO - Req was made 
+15.1.2023, 15:43:17 - ERROR - cannot find reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:43:17 - ERROR - Cannot get reviews | TypeError: Cannot read properties of undefined (reading '_id') 
+15.1.2023, 15:43:50 - INFO - Server is running on port: 3030 
+15.1.2023, 15:44:13 - INFO - Server is running on port: 3030 
+15.1.2023, 15:44:19 - INFO - Req was made 
+15.1.2023, 15:46:04 - INFO - Req was made 
+15.1.2023, 15:46:13 - INFO - Req was made 
+16.1.2023, 7:36:10 - INFO - Server is running on port: 3030 
+16.1.2023, 7:38:20 - INFO - Server is running on port: 3030 
+16.1.2023, 7:43:38 - INFO - Req was made 
+16.1.2023, 8:10:50 - INFO - Req was made 
+16.1.2023, 8:11:15 - INFO - Req was made 
+16.1.2023, 8:13:06 - INFO - Req was made 
+16.1.2023, 8:16:02 - INFO - Req was made 
+16.1.2023, 8:26:13 - INFO - Server is running on port: 3030 
+16.1.2023, 8:27:08 - INFO - Server is running on port: 3030 
+16.1.2023, 8:27:25 - INFO - Req was made 
+16.1.2023, 8:27:39 - INFO - Req was made 
+16.1.2023, 8:29:07 - INFO - Req was made 
+16.1.2023, 8:29:20 - DEBUG - auth.service - signup with username: uu, fullname: uu 
+16.1.2023, 8:29:20 - DEBUG - auth.route - new account created: {"username":"uu","password":"$2b$10$G.316DeOs37ItK1AaIwxLOIfHVatEEU1NaUbwkBwBPEiW8ayP1QFC","fullname":"uu","_id":"63c551300204ca3a73269917"} 
+16.1.2023, 8:29:20 - DEBUG - auth.service - login with username: uu 
+16.1.2023, 8:29:20 - INFO - User login:  | {"_id":"63c551300204ca3a73269917","username":"uu","fullname":"uu"} 
+16.1.2023, 8:31:46 - DEBUG - auth.service - login with username: uu 
+16.1.2023, 8:31:46 - INFO - User login:  | {"_id":"63c551300204ca3a73269917","username":"uu","fullname":"uu"} 
+16.1.2023, 8:35:55 - INFO - Server is running on port: 3030 
+16.1.2023, 8:38:28 - INFO - Req was made 
+16.1.2023, 8:38:43 - INFO - Req was made 
+16.1.2023, 8:41:57 - INFO - Server is running on port: 3030 
+16.1.2023, 8:43:00 - INFO - Server is running on port: 3030 
+16.1.2023, 8:43:01 - INFO - New connected socket [id: wznOJnhPUDP06CmvAAAB] 
+16.1.2023, 8:43:01 - INFO - Setting socket.userId = 63c2c5cda60168c5285e5b14 for socket [id: wznOJnhPUDP06CmvAAAB] 
+16.1.2023, 8:43:03 - INFO - New connected socket [id: XQCesgD4Osds1EApAAAD] 
+16.1.2023, 8:46:32 - INFO - Req was made 
+16.1.2023, 8:46:32 - INFO - Req was made 
+16.1.2023, 8:46:34 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 8:46:35 - INFO - New connected socket [id: O6uVUI-Pca4TGpGKAAAF] 
+16.1.2023, 8:46:35 - INFO - Req was made 
+16.1.2023, 8:46:35 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: O6uVUI-Pca4TGpGKAAAF] 
+16.1.2023, 8:46:41 - INFO - New chat msg from socket [id: O6uVUI-Pca4TGpGKAAAF], emitting to topic Love 
+16.1.2023, 8:47:07 - INFO - New chat msg from socket [id: O6uVUI-Pca4TGpGKAAAF], emitting to topic Love 
+16.1.2023, 8:47:09 - INFO - New chat msg from socket [id: O6uVUI-Pca4TGpGKAAAF], emitting to topic Love 
+16.1.2023, 8:47:10 - INFO - New chat msg from socket [id: O6uVUI-Pca4TGpGKAAAF], emitting to topic Love 
+16.1.2023, 8:47:25 - INFO - New chat msg from socket [id: O6uVUI-Pca4TGpGKAAAF], emitting to topic Love 
+16.1.2023, 8:47:41 - INFO - New chat msg from socket [id: O6uVUI-Pca4TGpGKAAAF], emitting to topic Love 
+16.1.2023, 8:48:09 - INFO - New connected socket [id: C0Dtzh4QriF_hivhAAAH] 
+16.1.2023, 8:48:09 - INFO - Req was made 
+16.1.2023, 8:48:17 - INFO - New chat msg from socket [id: C0Dtzh4QriF_hivhAAAH], emitting to topic Love 
+16.1.2023, 9:14:05 - INFO - Socket is leaving topic Love [id: wznOJnhPUDP06CmvAAAB] 
+16.1.2023, 9:14:05 - INFO - Socket is leaving topic Love [id: C0Dtzh4QriF_hivhAAAH] 
+16.1.2023, 9:14:06 - INFO - Socket is leaving topic Love [id: O6uVUI-Pca4TGpGKAAAF] 
+16.1.2023, 9:15:48 - INFO - New chat msg from socket [id: O6uVUI-Pca4TGpGKAAAF], emitting to topic null 
+16.1.2023, 9:16:10 - INFO - New chat msg from socket [id: C0Dtzh4QriF_hivhAAAH], emitting to topic null 
+16.1.2023, 9:18:21 - INFO - New chat msg from socket [id: O6uVUI-Pca4TGpGKAAAF], emitting to topic null 
+16.1.2023, 10:14:54 - INFO - New chat msg from socket [id: O6uVUI-Pca4TGpGKAAAF], emitting to topic null 
+16.1.2023, 10:15:02 - INFO - New chat msg from socket [id: C0Dtzh4QriF_hivhAAAH], emitting to topic null 
+16.1.2023, 10:24:54 - INFO - Server is running on port: 3030 
+16.1.2023, 10:24:54 - INFO - New connected socket [id: oPVYlxyg8NEHtn_xAAAB] 
+16.1.2023, 10:24:55 - INFO - New connected socket [id: WRQ1FYzVMnSDoTTbAAAD] 
+16.1.2023, 10:24:56 - INFO - New connected socket [id: 7-8MP0XYHDn1g3vJAAAF] 
+16.1.2023, 10:27:58 - INFO - Req was made 
+16.1.2023, 10:27:58 - INFO - Req was made 
+16.1.2023, 10:30:04 - INFO - New chat msg from socket [id: WRQ1FYzVMnSDoTTbAAAD], emitting to topic 63c4347af0ee35a580fcbc0c 
+16.1.2023, 10:30:09 - INFO - New chat msg from socket [id: oPVYlxyg8NEHtn_xAAAB], emitting to topic 63c4347af0ee35a580fcbc0c 
+16.1.2023, 11:31:23 - INFO - Req was made 
+16.1.2023, 11:31:23 - INFO - Req was made 
+16.1.2023, 11:31:24 - INFO - Req was made 
+16.1.2023, 11:31:24 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 11:31:24 - INFO - New connected socket [id: HXbZWchiPj0vwTWCAAAH] 
+16.1.2023, 11:31:25 - INFO - Req was made 
+16.1.2023, 11:31:25 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: HXbZWchiPj0vwTWCAAAH] 
+16.1.2023, 11:31:41 - INFO - Req was made 
+16.1.2023, 11:31:41 - INFO - Req was made 
+16.1.2023, 11:31:41 - INFO - Req was made 
+16.1.2023, 11:39:59 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 11:39:59 - INFO - New connected socket [id: jl3AX8AQCz6MGIzLAAAJ] 
+16.1.2023, 11:40:00 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: jl3AX8AQCz6MGIzLAAAJ] 
+16.1.2023, 11:45:57 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 11:45:58 - INFO - New connected socket [id: lRdoh07qr5TCFs7IAAAL] 
+16.1.2023, 11:45:58 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: lRdoh07qr5TCFs7IAAAL] 
+16.1.2023, 11:51:50 - INFO - Req was made 
+16.1.2023, 11:51:51 - INFO - Req was made 
+16.1.2023, 11:53:08 - INFO - Req was made 
+16.1.2023, 11:53:09 - INFO - Req was made 
+16.1.2023, 11:54:11 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 11:54:12 - INFO - New connected socket [id: d7KI7LNKDs5xBT0dAAAN] 
+16.1.2023, 11:54:12 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: d7KI7LNKDs5xBT0dAAAN] 
+16.1.2023, 11:58:03 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 11:58:03 - INFO - New connected socket [id: 53YEJM4awQmWoooAAAAP] 
+16.1.2023, 11:58:04 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: 53YEJM4awQmWoooAAAAP] 
+16.1.2023, 12:11:29 - INFO - Server is running on port: 3030 
+16.1.2023, 12:11:29 - INFO - New connected socket [id: hUmvSH5JmkomCAh9AAAB] 
+16.1.2023, 12:11:30 - INFO - New connected socket [id: k-vHJ4Z5KpR766HgAAAD] 
+16.1.2023, 12:11:31 - INFO - New connected socket [id: N8iehQMvKUg0U7wAAAAF] 
+16.1.2023, 12:15:56 - INFO - Server is running on port: 3030 
+16.1.2023, 12:15:57 - INFO - New connected socket [id: n5wQnOnqDyJOuHs1AAAB] 
+16.1.2023, 12:15:57 - INFO - New connected socket [id: MMCChODerazSR1wmAAAD] 
+16.1.2023, 12:15:58 - INFO - New connected socket [id: FXXErdokjEZsXznkAAAF] 
+16.1.2023, 12:16:11 - INFO - Server is running on port: 3030 
+16.1.2023, 12:16:12 - INFO - New connected socket [id: Y9hK5hEH67QQLy06AAAB] 
+16.1.2023, 12:16:12 - INFO - New connected socket [id: Lx6VaaWHy4Es-c-_AAAD] 
+16.1.2023, 12:16:12 - INFO - New connected socket [id: BMTXxAIRj_yDdx8xAAAF] 
+16.1.2023, 12:16:28 - INFO - Server is running on port: 3030 
+16.1.2023, 12:16:28 - INFO - New connected socket [id: MlrlGIvKsbYUvX0GAAAB] 
+16.1.2023, 12:16:29 - INFO - New connected socket [id: RsX3xlXlpn7RDt1JAAAD] 
+16.1.2023, 12:16:30 - INFO - New connected socket [id: etZAmqRK4CvK3CYEAAAF] 
+16.1.2023, 12:16:47 - INFO - Server is running on port: 3030 
+16.1.2023, 12:16:48 - INFO - New connected socket [id: nOy2-p1N9cF13-0EAAAB] 
+16.1.2023, 12:16:48 - INFO - New connected socket [id: 4FYHT0ocw_ySaSgwAAAD] 
+16.1.2023, 12:16:51 - INFO - New connected socket [id: Y5UcLIn3U8S2L5oIAAAF] 
+16.1.2023, 12:17:19 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:17:19 - INFO - New connected socket [id: bMiwsJAQK7H0rKFmAAAH] 
+16.1.2023, 12:17:19 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: bMiwsJAQK7H0rKFmAAAH] 
+16.1.2023, 12:20:16 - INFO - Server is running on port: 3030 
+16.1.2023, 12:20:16 - INFO - New connected socket [id: vcL_10egzC2pZbXSAAAB] 
+16.1.2023, 12:20:17 - INFO - New connected socket [id: CsQKA12-4KFXYKk2AAAD] 
+16.1.2023, 12:20:19 - INFO - New connected socket [id: veuCcoUDrc4l_d4fAAAF] 
+16.1.2023, 12:20:22 - INFO - Server is running on port: 3030 
+16.1.2023, 12:20:23 - INFO - New connected socket [id: H6AoxkWUWqwT_QRMAAAB] 
+16.1.2023, 12:20:23 - INFO - New connected socket [id: Q-PCJiqCAik9PA_0AAAD] 
+16.1.2023, 12:20:24 - INFO - New connected socket [id: Nk1dElvZd7NWv5BPAAAF] 
+16.1.2023, 12:20:25 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:20:26 - INFO - New connected socket [id: pvonDmC2Ii5ZG6jnAAAH] 
+16.1.2023, 12:20:26 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: pvonDmC2Ii5ZG6jnAAAH] 
+16.1.2023, 12:21:11 - INFO - Server is running on port: 3030 
+16.1.2023, 12:21:11 - INFO - New connected socket [id: p4WE_R0bs9NNlqWlAAAB] 
+16.1.2023, 12:21:12 - INFO - New connected socket [id: N0SI3RwNc55qE-AkAAAD] 
+16.1.2023, 12:21:13 - INFO - New connected socket [id: tLhfeMmcRzLNot5YAAAF] 
+16.1.2023, 12:21:18 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:21:19 - INFO - New connected socket [id: str7Nibtk7RU5DTkAAAH] 
+16.1.2023, 12:21:19 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: str7Nibtk7RU5DTkAAAH] 
+16.1.2023, 12:22:38 - INFO - Server is running on port: 3030 
+16.1.2023, 12:22:39 - INFO - New connected socket [id: GSAPdI26rL1hFOXWAAAB] 
+16.1.2023, 12:22:39 - INFO - New connected socket [id: 2Jztgw-1a-iN5vhHAAAD] 
+16.1.2023, 12:22:43 - INFO - New connected socket [id: e5LrinF92VeGpKwxAAAF] 
+16.1.2023, 12:22:45 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:22:45 - INFO - New connected socket [id: ycdy1k3Ic0U11-Y4AAAH] 
+16.1.2023, 12:22:45 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: ycdy1k3Ic0U11-Y4AAAH] 
+16.1.2023, 12:23:16 - INFO - Server is running on port: 3030 
+16.1.2023, 12:23:16 - INFO - New connected socket [id: kQKPWgfj9x-xbJWgAAAB] 
+16.1.2023, 12:23:16 - INFO - New connected socket [id: IfrbOT3fjoJ0x3SdAAAD] 
+16.1.2023, 12:23:17 - INFO - New connected socket [id: B3550IdBm1qNLcxgAAAF] 
+16.1.2023, 12:23:22 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:23:22 - INFO - New connected socket [id: otyiUb9wbF34yYNZAAAH] 
+16.1.2023, 12:23:23 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: otyiUb9wbF34yYNZAAAH] 
+16.1.2023, 12:23:32 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:23:32 - INFO - New connected socket [id: 38Q7JqlMlUDZ34yMAAAJ] 
+16.1.2023, 12:23:32 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: 38Q7JqlMlUDZ34yMAAAJ] 
+16.1.2023, 12:25:04 - INFO - Server is running on port: 3030 
+16.1.2023, 12:25:05 - INFO - New connected socket [id: 3-RA2rSsHePAsWiTAAAB] 
+16.1.2023, 12:25:05 - INFO - New connected socket [id: 2JBsiQeCVhuJ3fEPAAAD] 
+16.1.2023, 12:25:08 - INFO - New connected socket [id: RK8OG7hsrk7dMao1AAAF] 
+16.1.2023, 12:25:14 - INFO - Server is running on port: 3030 
+16.1.2023, 12:25:15 - INFO - New connected socket [id: JD3E5RQzvSB3jCfVAAAB] 
+16.1.2023, 12:25:15 - INFO - New connected socket [id: irsRN80UOd-X3aS0AAAD] 
+16.1.2023, 12:25:16 - INFO - New connected socket [id: IHs120r0NSAiW46WAAAF] 
+16.1.2023, 12:25:19 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:25:19 - INFO - New connected socket [id: Reh8n52TOUhnu5wGAAAH] 
+16.1.2023, 12:25:20 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: Reh8n52TOUhnu5wGAAAH] 
+16.1.2023, 12:25:26 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:25:26 - INFO - New connected socket [id: HPss-uJLVs75-DJJAAAJ] 
+16.1.2023, 12:25:27 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: HPss-uJLVs75-DJJAAAJ] 
+16.1.2023, 12:25:43 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:25:43 - INFO - New connected socket [id: eGnlDRfdfbURgP81AAAL] 
+16.1.2023, 12:25:44 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: eGnlDRfdfbURgP81AAAL] 
+16.1.2023, 12:27:24 - INFO - Server is running on port: 3030 
+16.1.2023, 12:27:25 - INFO - New connected socket [id: 5JTNIeLjOKZmMxQMAAAB] 
+16.1.2023, 12:27:25 - INFO - New connected socket [id: 6h0TIeaTEHZTKVgmAAAD] 
+16.1.2023, 12:27:26 - INFO - New connected socket [id: X3M1vMc_ngtJIQKDAAAF] 
+16.1.2023, 12:27:57 - INFO - Server is running on port: 3030 
+16.1.2023, 12:27:58 - INFO - New connected socket [id: XmhqtiQbrGJacEGEAAAB] 
+16.1.2023, 12:27:58 - INFO - New connected socket [id: 7nEp1ash58s_iUn1AAAD] 
+16.1.2023, 12:27:59 - INFO - New connected socket [id: xDLbwdgD5-uHWFivAAAF] 
+16.1.2023, 12:28:12 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:28:12 - INFO - New connected socket [id: krYrPMPImFbc2dbqAAAH] 
+16.1.2023, 12:28:12 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: krYrPMPImFbc2dbqAAAH] 
+16.1.2023, 12:30:21 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:30:21 - INFO - New connected socket [id: 1RL9yZMKF7KybdgvAAAJ] 
+16.1.2023, 12:30:21 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: 1RL9yZMKF7KybdgvAAAJ] 
+16.1.2023, 12:35:37 - INFO - Server is running on port: 3030 
+16.1.2023, 12:35:38 - INFO - New connected socket [id: W1h0mvBu677zJJhlAAAB] 
+16.1.2023, 12:35:38 - INFO - New connected socket [id: ha028DsBiQ9v_1ciAAAD] 
+16.1.2023, 12:35:38 - INFO - New connected socket [id: O3xpgZkicCxYgjSiAAAF] 
+16.1.2023, 12:35:52 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:35:53 - INFO - New connected socket [id: ZS1ao1o7e1XV0PgfAAAH] 
+16.1.2023, 12:35:53 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: ZS1ao1o7e1XV0PgfAAAH] 
+16.1.2023, 12:36:48 - INFO - Server is running on port: 3030 
+16.1.2023, 12:36:49 - INFO - Server is running on port: 3030 
+16.1.2023, 12:36:49 - INFO - New connected socket [id: jOOEHbH2q8Xz8yESAAAB] 
+16.1.2023, 12:36:49 - INFO - New connected socket [id: wHoPymsZ_5kr4SeYAAAD] 
+16.1.2023, 12:36:50 - INFO - New connected socket [id: iTYALf1KS_buxRM4AAAF] 
+16.1.2023, 12:37:17 - INFO - Server is running on port: 3030 
+16.1.2023, 12:37:18 - INFO - New connected socket [id: hXfxc2p7bPP7uLdGAAAB] 
+16.1.2023, 12:37:18 - INFO - New connected socket [id: 0PwLI833g6L9KwllAAAD] 
+16.1.2023, 12:37:18 - INFO - New connected socket [id: X6NVhJgO4VL4kkAOAAAF] 
+16.1.2023, 12:38:50 - INFO - Server is running on port: 3030 
+16.1.2023, 12:38:51 - INFO - New connected socket [id: amfuCNrqWB6BNz8BAAAB] 
+16.1.2023, 12:38:51 - INFO - New connected socket [id: m4lR1y2t7vPBp7GIAAAD] 
+16.1.2023, 12:38:52 - INFO - New connected socket [id: wAxU2MtJYXooAediAAAF] 
+16.1.2023, 12:38:59 - INFO - Server is running on port: 3030 
+16.1.2023, 12:39:00 - INFO - New connected socket [id: ooyT03ayDmH1Ns7jAAAB] 
+16.1.2023, 12:39:00 - INFO - New connected socket [id: 2GLAGKMmQmcPxe6BAAAD] 
+16.1.2023, 12:39:01 - INFO - New connected socket [id: XyhIHgTvHBZsOiY9AAAF] 
+16.1.2023, 12:39:02 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:39:02 - INFO - New connected socket [id: bXsdd2JdJtw9htLWAAAH] 
+16.1.2023, 12:39:03 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: bXsdd2JdJtw9htLWAAAH] 
+16.1.2023, 12:41:00 - INFO - Server is running on port: 3030 
+16.1.2023, 12:41:01 - INFO - New connected socket [id: FwvEUBNug24mSlW7AAAB] 
+16.1.2023, 12:41:01 - INFO - New connected socket [id: CwsCKdqRsC80WMSrAAAD] 
+16.1.2023, 12:41:02 - INFO - New connected socket [id: om1TaXMZtTJSYEDZAAAF] 
+16.1.2023, 12:41:34 - INFO - Req was made 
+16.1.2023, 12:44:50 - INFO - Server is running on port: 3030 
+16.1.2023, 12:44:51 - INFO - New connected socket [id: w3LA43I0CA3v43ZeAAAB] 
+16.1.2023, 12:44:53 - INFO - New connected socket [id: khD-fvz-yOFLyqIZAAAD] 
+16.1.2023, 12:44:54 - INFO - New connected socket [id: 4IUeK8s1l4ZTJCkWAAAF] 
+16.1.2023, 12:52:56 - INFO - Server is running on port: 3030 
+16.1.2023, 12:52:56 - INFO - New connected socket [id: 4ZGGWSUt-8LLQXsWAAAB] 
+16.1.2023, 12:52:57 - INFO - New connected socket [id: b4wGqsDsjOFcBbS2AAAD] 
+16.1.2023, 12:52:57 - INFO - New connected socket [id: kbvipwQi8cNw8f9cAAAF] 
+16.1.2023, 12:55:05 - INFO - Server is running on port: 3030 
+16.1.2023, 12:55:05 - INFO - New connected socket [id: 7Fi0y2iscfkKDt4YAAAB] 
+16.1.2023, 12:55:06 - INFO - New connected socket [id: xh1e6GjEc7cG4fS4AAAD] 
+16.1.2023, 12:55:06 - INFO - New connected socket [id: v6ZqMDEH1OsrBuS8AAAF] 
+16.1.2023, 12:55:33 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:55:34 - INFO - New connected socket [id: 6s-NdAhx_J7zCF4wAAAH] 
+16.1.2023, 12:55:34 - INFO - Req was made 
+16.1.2023, 12:55:34 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: 6s-NdAhx_J7zCF4wAAAH] 
+16.1.2023, 12:55:43 - INFO - Req was made 
+16.1.2023, 12:55:48 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 12:55:48 - INFO - New connected socket [id: uHFObLmPgRmFtdztAAAJ] 
+16.1.2023, 12:55:48 - INFO - Req was made 
+16.1.2023, 12:55:48 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: uHFObLmPgRmFtdztAAAJ] 
+16.1.2023, 12:57:10 - INFO - Server is running on port: 3030 
+16.1.2023, 12:57:10 - INFO - New connected socket [id: v9HGO385zsO9oKn6AAAB] 
+16.1.2023, 12:57:11 - INFO - New connected socket [id: 6hSY7RB4GbSpJlMHAAAD] 
+16.1.2023, 12:57:11 - INFO - New connected socket [id: DSl2R6HUVtvfWNqZAAAF] 
+16.1.2023, 12:59:52 - INFO - Server is running on port: 3030 
+16.1.2023, 12:59:52 - INFO - New connected socket [id: M7CPt0dhVquCoafWAAAB] 
+16.1.2023, 12:59:52 - INFO - New connected socket [id: iaY8PB3gpvj9-pGWAAAD] 
+16.1.2023, 12:59:54 - INFO - New connected socket [id: jr-DxXneOKEup3SCAAAF] 
+16.1.2023, 12:59:58 - INFO - Server is running on port: 3030 
+16.1.2023, 12:59:59 - INFO - New connected socket [id: y7eplaBnQexklVcYAAAB] 
+16.1.2023, 12:59:59 - INFO - New connected socket [id: d6ZpzNl6NJeNAZVZAAAD] 
+16.1.2023, 13:00:00 - INFO - New connected socket [id: F8IDEfkQfGmL5wSoAAAF] 
+16.1.2023, 13:00:02 - INFO - Server is running on port: 3030 
+16.1.2023, 13:00:03 - INFO - New connected socket [id: i_tPzRdJD-G6vsKdAAAB] 
+16.1.2023, 13:00:03 - INFO - New connected socket [id: NPJKUQDgac5hi1ZLAAAD] 
+16.1.2023, 13:00:04 - INFO - New connected socket [id: mYbdQxlD3lQqBsO-AAAF] 
+16.1.2023, 13:00:38 - INFO - Server is running on port: 3030 
+16.1.2023, 13:00:39 - INFO - New connected socket [id: Aju5O0l0S6vXhRAhAAAB] 
+16.1.2023, 13:00:39 - INFO - New connected socket [id: FuuMl31eHCvbuj5nAAAD] 
+16.1.2023, 13:00:40 - INFO - New connected socket [id: MBYiDyhLyJATQZV_AAAF] 
+16.1.2023, 13:00:44 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 13:00:44 - INFO - New connected socket [id: hUCZFOrtVxdvwCfOAAAH] 
+16.1.2023, 13:00:45 - INFO - Req was made 
+16.1.2023, 13:00:45 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: hUCZFOrtVxdvwCfOAAAH] 
+16.1.2023, 13:01:54 - INFO - Server is running on port: 3030 
+16.1.2023, 13:01:55 - INFO - New connected socket [id: mkZVtcwUYuLZjxYMAAAB] 
+16.1.2023, 13:01:55 - INFO - New connected socket [id: 9GOeF7IfpFOVVneeAAAD] 
+16.1.2023, 13:01:56 - INFO - New connected socket [id: B7lxEhzHJ5K37mr7AAAF] 
+16.1.2023, 13:02:02 - INFO - Server is running on port: 3030 
+16.1.2023, 13:02:02 - INFO - New connected socket [id: d5nwvJb1zsjCCEbkAAAB] 
+16.1.2023, 13:02:04 - INFO - New connected socket [id: 4TjIV-cCmaZLpEqTAAAD] 
+16.1.2023, 13:02:05 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 13:02:05 - INFO - New connected socket [id: TMqtHwG00jMD9xxqAAAF] 
+16.1.2023, 13:02:05 - INFO - New connected socket [id: IErBoBI7B6PmvvD5AAAH] 
+16.1.2023, 13:02:06 - INFO - Req was made 
+16.1.2023, 13:02:06 - ERROR - cannot find reviews | ReferenceError: reviews is not defined 
+16.1.2023, 13:02:06 - ERROR - Cannot get reviews | ReferenceError: reviews is not defined 
+16.1.2023, 13:02:06 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: IErBoBI7B6PmvvD5AAAH] 
+16.1.2023, 13:02:21 - INFO - Server is running on port: 3030 
+16.1.2023, 13:02:22 - INFO - New connected socket [id: 9i-SQOBdhDjasmT8AAAB] 
+16.1.2023, 13:02:22 - INFO - New connected socket [id: MAI1F6qbt-CxWHfyAAAD] 
+16.1.2023, 13:02:24 - INFO - New connected socket [id: OKGePGa_0lltrSY9AAAF] 
+16.1.2023, 13:02:24 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 13:02:24 - INFO - New connected socket [id: DE5ioblcriasubrRAAAH] 
+16.1.2023, 13:02:25 - INFO - Req was made 
+16.1.2023, 13:02:25 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: DE5ioblcriasubrRAAAH] 
+16.1.2023, 13:03:02 - INFO - Server is running on port: 3030 
+16.1.2023, 13:03:03 - INFO - New connected socket [id: npMFvI9zh-OJru51AAAB] 
+16.1.2023, 13:03:03 - INFO - New connected socket [id: w29yt1yS0vl91qpcAAAD] 
+16.1.2023, 13:03:04 - INFO - Server is running on port: 3030 
+16.1.2023, 13:03:04 - INFO - New connected socket [id: ArQ83hB9tdTk3ZFpAAAB] 
+16.1.2023, 13:03:04 - INFO - New connected socket [id: UXl9bQ2TJ3FUc0mKAAAD] 
+16.1.2023, 13:03:05 - INFO - New connected socket [id: lxIQvfFKVUS_mhb9AAAF] 
+16.1.2023, 13:03:19 - INFO - Server is running on port: 3030 
+16.1.2023, 13:03:20 - INFO - New connected socket [id: WK57eHv0HelwvVCQAAAB] 
+16.1.2023, 13:03:20 - INFO - New connected socket [id: q7bFRVEM3LrxAylvAAAD] 
+16.1.2023, 13:03:21 - INFO - New connected socket [id: _lApJtCjllu93u9GAAAF] 
+16.1.2023, 13:03:33 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 13:03:33 - INFO - New connected socket [id: 2Dq-5y44tU99WtIVAAAH] 
+16.1.2023, 13:03:33 - INFO - Req was made 
+16.1.2023, 13:03:33 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: 2Dq-5y44tU99WtIVAAAH] 
+16.1.2023, 13:03:36 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 13:03:36 - INFO - New connected socket [id: -PwTi4pDMbiFvST7AAAJ] 
+16.1.2023, 13:03:37 - INFO - Req was made 
+16.1.2023, 13:03:37 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: -PwTi4pDMbiFvST7AAAJ] 
+16.1.2023, 13:07:20 - INFO - Server is running on port: 3030 
+16.1.2023, 13:07:21 - INFO - New connected socket [id: MpXMK1Mzmu_sJvEpAAAB] 
+16.1.2023, 13:07:21 - INFO - New connected socket [id: oowTHrZo8zkWy_OUAAAD] 
+16.1.2023, 13:07:22 - INFO - New connected socket [id: Z72KPRr9SdC4NxijAAAF] 
+16.1.2023, 13:07:48 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 13:07:48 - INFO - New connected socket [id: bnwKNCd7oTAddBKnAAAH] 
+16.1.2023, 13:07:48 - INFO - Req was made 
+16.1.2023, 13:07:49 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: bnwKNCd7oTAddBKnAAAH] 
+16.1.2023, 13:07:53 - INFO - Req was made 
+16.1.2023, 13:08:08 - INFO - Server is running on port: 3030 
+16.1.2023, 13:08:09 - INFO - New connected socket [id: q0E2alf6NhqTrS2FAAAB] 
+16.1.2023, 13:08:09 - INFO - New connected socket [id: SW9HUnVJx6akQ1noAAAD] 
+16.1.2023, 13:08:10 - INFO - New connected socket [id: QzmBKg8q6jTJHujUAAAF] 
+16.1.2023, 13:08:14 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 13:08:14 - INFO - New connected socket [id: ceJU6Mls7Ariir2bAAAH] 
+16.1.2023, 13:08:14 - INFO - Req was made 
+16.1.2023, 13:08:15 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: ceJU6Mls7Ariir2bAAAH] 
+16.1.2023, 13:09:27 - INFO - Server is running on port: 3030 
+16.1.2023, 13:09:27 - INFO - New connected socket [id: 6DbpymL7Xll0MaszAAAB] 
+16.1.2023, 13:09:28 - INFO - New connected socket [id: dqzVAhmsln6GGHRdAAAD] 
+16.1.2023, 13:09:28 - INFO - New connected socket [id: YhpQn89zwUg_5a1kAAAF] 
+16.1.2023, 13:09:34 - INFO - Server is running on port: 3030 
+16.1.2023, 13:09:35 - INFO - New connected socket [id: 3OfhfjnCHjuSOL4IAAAB] 
+16.1.2023, 13:09:35 - INFO - New connected socket [id: c0oN-DWyIJCPeWp9AAAD] 
+16.1.2023, 13:09:36 - INFO - New connected socket [id: FurjsATm-J-DCPvPAAAF] 
+16.1.2023, 13:09:39 - INFO - Server is running on port: 3030 
+16.1.2023, 13:09:40 - INFO - New connected socket [id: y9qpv4u8k3GX7IMgAAAB] 
+16.1.2023, 13:09:40 - INFO - New connected socket [id: 4TKEozuflPVZThAiAAAD] 
+16.1.2023, 13:09:43 - INFO - New connected socket [id: hMKCvOENAaDuang2AAAF] 
+16.1.2023, 13:09:43 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 13:09:43 - INFO - New connected socket [id: PdbKMj-ikgYtyh-fAAAH] 
+16.1.2023, 13:09:44 - INFO - Req was made 
+16.1.2023, 13:09:44 - INFO - Setting socket.userId = 63c551300204ca3a73269917 for socket [id: PdbKMj-ikgYtyh-fAAAH] 
+16.1.2023, 13:10:55 - INFO - Socket is leaving topic 63c4347af0ee35a580fcbc0c [id: PdbKMj-ikgYtyh-fAAAH] 
+16.1.2023, 13:10:55 - INFO - Req was made 
+16.1.2023, 13:11:38 - INFO - Server is running on port: 3030 
+16.1.2023, 13:11:38 - INFO - New connected socket [id: 0gTKKfG3R0i1fFAhAAAB] 
+16.1.2023, 13:11:38 - INFO - New connected socket [id: 3jWkaYWdz5tzZY9kAAAD] 
+16.1.2023, 13:11:39 - INFO - New connected socket [id: UU8UwpXZUFRLUBYWAAAF] 
+16.1.2023, 13:12:38 - DEBUG - auth.service - signup with username: mm, fullname: mm 
+16.1.2023, 13:12:38 - DEBUG - auth.route - new account created: {"username":"mm","password":"$2b$10$XXm5Lh32cWFc4c0dYZE1GOTzVGWBaDJexKwGzQvik7KO85aJhCIt2","fullname":"mm","_id":"63c5939656fd4176841cd116"} 
+16.1.2023, 13:12:38 - DEBUG - auth.service - login with username: mm 
+16.1.2023, 13:12:38 - INFO - User login:  | {"_id":"63c5939656fd4176841cd116","username":"mm","fullname":"mm"} 
+16.1.2023, 13:12:43 - INFO - Req was made 
+16.1.2023, 13:34:14 - INFO - Server is running on port: 3030 
+16.1.2023, 13:34:15 - INFO - New connected socket [id: 3ZDOyjvxMs1gVpv9AAAB] 
+16.1.2023, 13:34:15 - INFO - New connected socket [id: 7I8HU2GOj-X0vO3UAAAD] 
+16.1.2023, 13:34:15 - INFO - New connected socket [id: 4xuGE7m6TRc0WDuSAAAF] 
+16.1.2023, 13:47:31 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 13:47:31 - INFO - New connected socket [id: B1QuxYvQMRxxG7kmAAAH] 
+16.1.2023, 13:47:32 - INFO - Setting socket.userId = 63c5939656fd4176841cd116 for socket [id: B1QuxYvQMRxxG7kmAAAH] 

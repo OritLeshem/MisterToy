@@ -4,7 +4,7 @@ import { httpService } from './http.service.js'
 
 const STORAGE_KEY = 'userDB'
 const STORAGE_KEY_LOGGEDIN = 'loggedinUser'
-const BASE_URL = 'user/'
+const BASE_URL = 'auth/'
 
 export const userService = {
     login,
@@ -12,14 +12,27 @@ export const userService = {
     signup,
     getById,
     getLoggedinUser,
+    getUsers,
+    remove,
+    update,
 
     getEmptyCredentials
 }
 
 window.us = userService
+function getUsers() {
+    // return storageService.query('user')
+    return httpService.get(`user`)
+}
+async function getById(userId) {
+    // return storageService.get(STORAGE_KEY, userId)
+    const user = await httpService.get(`user/${userId}`)
+    return user
 
-function getById(userId) {
-    return storageService.get(STORAGE_KEY, userId)
+}
+function remove(userId) {
+    // return storageService.remove('user', userId)
+    return httpService.delete(`user/${userId}`)
 }
 
 function login(credentials) {
@@ -93,7 +106,15 @@ function _setLoggedinUser(user) {
     sessionStorage.setItem(STORAGE_KEY_LOGGEDIN, JSON.stringify(userToSave))
     return userToSave
 }
+async function update({ _id, score }) {
+    // const user = await storageService.get('user', _id)
+    // await storageService.put('user', user)
 
+    const user = await httpService.put(`user/${_id}`, { _id, score })
+    // Handle case in which admin updates other user's details
+    if (getLoggedinUser()._id === user._id) _setLoggedinUser(user)
+    return user
+}
 // Test Data
 // userService.signup({username: 'muki', password: 'muki1', fullname: 'Muki Ja'})
 // userService.login({username: 'muki', password: 'muki1'})

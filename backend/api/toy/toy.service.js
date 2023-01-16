@@ -3,20 +3,40 @@ const dbService = require('../../services/db.service')
 const utilService = require('../../services/util.service')
 const ObjectId = require('mongodb').ObjectId
 
-async function query(filterBy = { name: '', price: JSON.parse(-Infinity) }) {
+async function query(filterBy) {
   try {
     // console.log(filterBy.price, 'price')
-    const criteria = {
-      name: { $regex: filterBy.name, $options: 'i' },
-      // price: { $lte: filterBy.price }
-    }
+    const criteria = _buildCriteria(filterBy)
+    console.log('criteria', criteria)
+    //   name: { $regex: filterBy.name, $options: 'i' },
+    // price: { $lte: filterBy.price }
+
     const collection = await dbService.getCollection('toy')
     var toys = await collection.find(criteria).toArray()
     return toys
-  } catch (err) {
+  }
+  catch (err) {
     // logger.error('cannot find toys', err)
     throw err
   }
+}
+function _buildCriteria(filterBy) {
+  let criteria = {}
+  // console.log(filterBy)
+  if (filterBy.name) {
+    criteria.name = { $regex: filterBy.name, $options: 'i' }
+  }
+  if (filterBy.price) {
+    criteria.price = { $lte: +filterBy.price || Infinity }
+  }
+  if (filterBy.inStock === 'true') {
+    criteria.inStock = true
+  }
+  // if (filterBy?.labels?.length) {
+  //   criteria.lables = { $all: filterBy.labels }
+  // }
+
+  return criteria
 }
 
 async function remove(toyId) {

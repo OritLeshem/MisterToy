@@ -32,7 +32,7 @@ function getDefaultFilter() {
 }
 
 function query(filterBy = getDefaultFilter(), sortBy = getDefaultSort()) {
-
+  console.log('toy service', filterBy, sortBy)
   return httpService.get('toy', { params: { filterBy, sortBy } })
 }
 

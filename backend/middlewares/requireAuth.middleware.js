@@ -3,14 +3,16 @@ const authService = require('../api/auth/auth.service')
 const config = require('../config')
 
 async function requireAuth(req, res, next) {
-
+  // console.log('loginToken', req.cookies.loginToken)
   if (config.isGuestMode && !req?.cookies?.loginToken) {
+
     req.loggedinUser = { _id: '', fullname: 'Guest' }
     return next()
   }
 
   if (!req?.cookies?.loginToken) return res.status(401).send('Not Authenticated')
   const loggedinUser = authService.validateToken(req.cookies.loginToken)
+  // console.log('loggedinUser', loggedinUser)
   if (!loggedinUser) return res.status(401).send('Not Authenticated')
 
   req.loggedinUser = loggedinUser

@@ -3,6 +3,8 @@ import { useParams, useNavigate, Link } from 'react-router-dom'
 
 import { toyService } from "../services/toy.service.js"
 import { showErrorMsg } from "../services/event-bus.service.js"
+import { Review } from '../cmps/review.jsx'
+import { ChatApp } from './chat-app.jsx'
 
 export function ToyDetails() {
   const [toy, setToy] = useState(null)
@@ -27,6 +29,9 @@ export function ToyDetails() {
   return <section className="toy-details">
     <div className="toy-details-img"><img src={toy.img} /></div>
     <div className="toy-details-info">
+      <ChatApp toyId={toyId} />
+      <h2>Review about {toy.name}</h2>
+      <Review toyId={toy._id} />
       <h1> {toy.name}</h1>
       <h5>Price: ${toy.price}</h5>
 
@@ -35,6 +40,11 @@ export function ToyDetails() {
       <div className="toy-details-btn">
         <Link to={`/toy`}><img className="btn-icon" src={require(`../assets/img/undo.png`)} alt="" /></Link>
         <Link to={`/toy/edit/${toy._id}`}><img className="btn-icon" src={require(`../assets/img/edit.png`)} alt="" /></Link>
+      </div>
+
+      <div>Reviews:
+
+
       </div>
     </div>
   </section>

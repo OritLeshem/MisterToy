@@ -35,7 +35,7 @@ export function ToyIndex() {
 
 
   async function onLoadToys(filterBy, sortBy) {
-
+    console.log('filterBy', filterBy, 'sortBy', sortBy)
     try {
       await loadToys(filterBy, sortBy)
     }
@@ -76,6 +76,8 @@ export function ToyIndex() {
   //   onLoadToys(filterBy)
 
   // }
+
+  // if (!toys.length) return <h1>no toys</h1>
 
   return <section className="main-layout ">
     {/* <Example /> */}

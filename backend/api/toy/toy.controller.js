@@ -5,10 +5,11 @@ const toyService = require('./toy.service.js')
 async function getToys(req, res) {
   try {
     // logger.debug('Getting Toys')
-    const filterBy = {
-      name: req.query.params.filterBy.name || '',
-      price: req.query.params.filterBy.price || 0
-    }
+    // const filterBy = {
+    //   name: req.query.params.filterBy.name || '',
+    //   price: req.query.params.filterBy.price || 0
+    // }
+    const { filterBy } = req.query.params
     const toys = await toyService.query(filterBy)
     res.json(toys)
   } catch (err) {

@@ -13,6 +13,7 @@ import { ToyDetails } from './views/toy-details';
 import { DashboardPage } from './views/dashboard-page';
 // import './assets/css/main.css'
 import './assets/scss/main.scss'
+import { ReviewApp } from './views/review-app';
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
             <Routes>
               <Route element={<HomePage />} path="/" />
               <Route element={<AboutUs />} path="/about" />
+              <Route element={<ReviewApp />} path="/review" />
+              <Route element={<ReviewApp />} path="/chat" />
+
+
               <Route element={<ToyIndex />} path="/toy" />
               <Route element={<DashboardPage />} path="/dashboard" />
               <Route element={<ToyEdit />} path="/toy/edit" />
